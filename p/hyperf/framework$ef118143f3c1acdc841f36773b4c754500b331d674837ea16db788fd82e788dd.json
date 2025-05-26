@@ -1,0 +1,926 @@
+{
+    "packages": {
+        "hyperf/framework": {
+            "v3.1.0": {
+                "name": "hyperf/framework",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "3b24833c8341a8f71cbf957653c10dee033604c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-3b24833c8341a8f71cbf957653c10dee033604c5-zip-08d5ba.zip",
+                    "reference": "3b24833c8341a8f71cbf957653c10dee033604c5",
+                    "shasum": "9abb2ec94298c2b30d6b7b7e7ee7c93835a5e3b6"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2023-11-24T03:10:53+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 1
+            },
+            "v3.1.0-rc.14": {
+                "name": "hyperf/framework",
+                "version": "v3.1.0-rc.14",
+                "version_normalized": "3.1.0.0-RC14",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "21d680297c25ff5567709cc3da17dadc4a39103e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-21d680297c25ff5567709cc3da17dadc4a39103e-zip-a4f1c7.zip",
+                    "reference": "21d680297c25ff5567709cc3da17dadc4a39103e",
+                    "shasum": "23ec06175601e24c7deaaef1ad47ff7152150926"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2023-11-22T06:23:15+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "uid": 2
+            },
+            "v3.1.0-rc.4": {
+                "name": "hyperf/framework",
+                "version": "v3.1.0-rc.4",
+                "version_normalized": "3.1.0.0-RC4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "9e79fcfa3c7eef2a067f3d412da3b1cd312353a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-9e79fcfa3c7eef2a067f3d412da3b1cd312353a8-zip-50e482.zip",
+                    "reference": "9e79fcfa3c7eef2a067f3d412da3b1cd312353a8",
+                    "shasum": "9853ed0eb8179120b781eb399582d6accfc8756b"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2023-09-22T05:24:19+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "uid": 3
+            },
+            "v3.1.0-alpha.1": {
+                "name": "hyperf/framework",
+                "version": "v3.1.0-alpha.1",
+                "version_normalized": "3.1.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "764076bf7e9364a5d094cd864c25fb4265d07895"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-764076bf7e9364a5d094cd864c25fb4265d07895-zip-d7329c.zip",
+                    "reference": "764076bf7e9364a5d094cd864c25fb4265d07895",
+                    "shasum": "4d3b5cd3102b6f8a8024be14836e353443274dea"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/support": "~3.1.0",
+                    "hyperf/utils": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2023-06-07T02:16:25+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "uid": 4
+            },
+            "v3.1.0-beta.3": {
+                "name": "hyperf/framework",
+                "version": "v3.1.0-beta.3",
+                "version_normalized": "3.1.0.0-beta3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "22e09a470ac74aae2b61b611b9839b655e0c7162"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-22e09a470ac74aae2b61b611b9839b655e0c7162-zip-fc4211.zip",
+                    "reference": "22e09a470ac74aae2b61b611b9839b655e0c7162",
+                    "shasum": "0d186225fa2af9acbc6dd5ad35a2e9d25d0f3f63"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2023-06-20T02:47:51+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "uid": 5
+            },
+            "v3.1.15": {
+                "name": "hyperf/framework",
+                "version": "v3.1.15",
+                "version_normalized": "3.1.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "e555b61352f366760536df4e1face1c6950d81c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-e555b61352f366760536df4e1face1c6950d81c9-zip-df7457.zip",
+                    "reference": "e555b61352f366760536df4e1face1c6950d81c9",
+                    "shasum": "73e94209558d463859d9e6077cf16347de813924"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-03-23T11:28:51+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 6
+            },
+            "v3.1.23": {
+                "name": "hyperf/framework",
+                "version": "v3.1.23",
+                "version_normalized": "3.1.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "c40d529fafc197c67a64e9ca918498d417d4102c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-c40d529fafc197c67a64e9ca918498d417d4102c-zip-b2a3b3.zip",
+                    "reference": "c40d529fafc197c67a64e9ca918498d417d4102c",
+                    "shasum": "de9996108a238abfb888e9f3ed975de3790e662f"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0|^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0|^2.0|^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-05-21T05:43:48+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 7
+            },
+            "v3.1.27": {
+                "name": "hyperf/framework",
+                "version": "v3.1.27",
+                "version_normalized": "3.1.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "c615fdf011e88199577a3d1b262b6e9df39f81fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-c615fdf011e88199577a3d1b262b6e9df39f81fe-zip-372bfd.zip",
+                    "reference": "c615fdf011e88199577a3d1b262b6e9df39f81fe",
+                    "shasum": "7a157101b60d7f83bbf6064bd1ce9cce25eccbe9"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-06-17T01:51:06+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 8
+            },
+            "v3.1.38": {
+                "name": "hyperf/framework",
+                "version": "v3.1.38",
+                "version_normalized": "3.1.38.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "4ffe5bf926c2aac5db921daa185b9e1e10eef4eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-4ffe5bf926c2aac5db921daa185b9e1e10eef4eb-zip-e415cf.zip",
+                    "reference": "4ffe5bf926c2aac5db921daa185b9e1e10eef4eb",
+                    "shasum": "ec816b953ab22c94e16d99963ab37a2f27df1737"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-08-28T06:15:46+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 9
+            },
+            "v3.1.39": {
+                "name": "hyperf/framework",
+                "version": "v3.1.39",
+                "version_normalized": "3.1.39.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "e3e018c61d5389819cfa1255a1b88ca5e2c21f99"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-e3e018c61d5389819cfa1255a1b88ca5e2c21f99-zip-971c1c.zip",
+                    "reference": "e3e018c61d5389819cfa1255a1b88ca5e2c21f99",
+                    "shasum": "059015b2f81818a0d05a2b37999f50ae83f5bab6"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-08-29T07:00:38+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 10
+            },
+            "v3.1.42": {
+                "name": "hyperf/framework",
+                "version": "v3.1.42",
+                "version_normalized": "3.1.42.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-7b317d3891698a1eb0308e7306730d2ada1d6ff4-zip-072eef.zip",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4",
+                    "shasum": "7c6d46133113fd147c74f7f7f90544dc8b9626b0"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-09-25T02:54:12+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 11
+            },
+            "3.1.x-dev": {
+                "name": "hyperf/framework",
+                "version": "3.1.x-dev",
+                "version_normalized": "3.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-7b317d3891698a1eb0308e7306730d2ada1d6ff4-zip-072eef.zip",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4",
+                    "shasum": "7c6d46133113fd147c74f7f7f90544dc8b9626b0"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-09-25T02:54:12+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 12
+            },
+            "dev-master": {
+                "name": "hyperf/framework",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hyperf/framework.git",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/hyperf/framework/hyperf-framework-7b317d3891698a1eb0308e7306730d2ada1d6ff4-zip-072eef.zip",
+                    "reference": "7b317d3891698a1eb0308e7306730d2ada1d6ff4",
+                    "shasum": "7c6d46133113fd147c74f7f7f90544dc8b9626b0"
+                },
+                "require": {
+                    "fig/http-message-util": "^1.1.2",
+                    "hyperf/contract": "~3.1.0",
+                    "hyperf/coordinator": "~3.1.0",
+                    "hyperf/coroutine": "~3.1.0",
+                    "php": ">=8.1",
+                    "psr/container": "^1.0 || ^2.0",
+                    "psr/event-dispatcher": "^1.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "suggest": {
+                    "ext-swoole": "Required to use swoole engine.",
+                    "hyperf/command": "Required to use Command annotation.",
+                    "hyperf/di": "Required to use Command annotation.",
+                    "hyperf/dispatcher": "Required to use BootApplication event.",
+                    "symfony/event-dispatcher": "Required to use symfony event dispatcher (^5.0|^6.0)."
+                },
+                "time": "2024-09-25T02:54:12+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Hyperf\\Framework\\ConfigProvider"
+                    },
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hyperf\\Framework\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+                "homepage": "https://hyperf.io",
+                "keywords": [
+                    "Microservice",
+                    "framework",
+                    "hyperf",
+                    "middleware",
+                    "php",
+                    "swoole"
+                ],
+                "funding": [
+                    {
+                        "url": "https://hyperf.wiki/#/zh-cn/donate",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://opencollective.com/hyperf",
+                        "type": "open_collective"
+                    }
+                ],
+                "uid": 13
+            }
+        }
+    }
+}

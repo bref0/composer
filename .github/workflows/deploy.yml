@@ -13,15 +13,10 @@ jobs:
       - name: "拉取代码"
         uses: actions/checkout@v4
 
-      # 设置SSH密钥
-      - name: "配置Codeup SSH密钥"
+      - name: "配置SSH"
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.CODEUP_SSH_KEY }}" > ~/.ssh/codeup_key
-          chmod 600 ~/.ssh/codeup_key
-          ssh-keyscan codeup.aliyun.com >> ~/.ssh/known_hosts
-          # 配置Git使用SSH
-          git config --global url."git@codeup.aliyun.com:".insteadOf "https://codeup.aliyun.com/"
-
-      - name: 测试连接
-        run: ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
+          echo "${{ secrets.CODEUP_SSH_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -t rsa,ed25519 codeup.aliyun.com > ~/.ssh/known_hosts
+          ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes

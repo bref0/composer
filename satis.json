@@ -3,14 +3,14 @@
     "homepage": "https://bref0.github.io/composer",
     
     "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org"
-        }
+         {
+            "type": "git",
+            "url": "git@codeup.aliyun.com:yinlisports/composer/core.git"
+         }
     ],
     
     "require": {
-         "hyperf/framework": "~3.1.0"
+         "ingym/core": "*"
     },
     "require-all": false,
     "require-dependencies": false,

@@ -13,6 +13,16 @@ jobs:
       - name: "拉取代码"
         uses: actions/checkout@v4
 
+      # 设置SSH密钥
+      - name: "配置Codeup SSH密钥"
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.CODEUP_SSH_KEY }}" > ~/.ssh/codeup_key
+          chmod 600 ~/.ssh/codeup_key
+          ssh-keyscan codeup.aliyun.com >> ~/.ssh/known_hosts
+          # 配置Git使用SSH
+          git config --global url."git@codeup.aliyun.com:".insteadOf "https://codeup.aliyun.com/"
+
       # 缓存Composer全局依赖（包括satis）
       - name: "缓存Composer全局依赖"
         uses: actions/cache@v3

@@ -1,0 +1,633 @@
+{
+    "packages": {
+        "symfony/polyfill-php80": {
+            "v1.14.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.14.0",
+                "version_normalized": "1.14.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "b0bb13886534f7353089258600fb241699609375"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-b0bb13886534f7353089258600fb241699609375-zip-117b7c.zip",
+                    "reference": "b0bb13886534f7353089258600fb241699609375",
+                    "shasum": "2c4b5f337985050671acb1556bb989270beee6e7"
+                },
+                "require": {
+                    "php": ">=7.0.8"
+                },
+                "time": "2020-02-13T08:45:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.14-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 354
+            },
+            "v1.15.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.15.0",
+                "version_normalized": "1.15.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "8854dc880784d2ae32908b75824754339b5c0555"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-8854dc880784d2ae32908b75824754339b5c0555-zip-228f09.zip",
+                    "reference": "8854dc880784d2ae32908b75824754339b5c0555",
+                    "shasum": "6cee011afbe11889bab08ebdfda7d5054f9019e5"
+                },
+                "require": {
+                    "php": ">=7.0.8"
+                },
+                "time": "2020-03-03T16:59:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.15-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 355
+            },
+            "v1.16.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.16.0",
+                "version_normalized": "1.16.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "c4bdcb0490a6c0e12c51e9d771fda5867e908fd2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-c4bdcb0490a6c0e12c51e9d771fda5867e908fd2-zip-d20ca6.zip",
+                    "reference": "c4bdcb0490a6c0e12c51e9d771fda5867e908fd2",
+                    "shasum": "135ab30820cb655d4bd7848fba2545c2ed1d8cee"
+                },
+                "require": {
+                    "php": ">=7.0.8"
+                },
+                "time": "2020-05-08T16:50:20+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.16-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 356
+            },
+            "v1.17.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.17.0",
+                "version_normalized": "1.17.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-5e30b2799bc1ad68f7feb62b60a73743589438dd-zip-312018.zip",
+                    "reference": "5e30b2799bc1ad68f7feb62b60a73743589438dd",
+                    "shasum": "f527161407a1ec9c7029ddec28a38eae47fd5498"
+                },
+                "require": {
+                    "php": ">=7.0.8"
+                },
+                "time": "2020-05-12T16:47:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.17-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 357
+            },
+            "v1.23.1": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.23.1",
+                "version_normalized": "1.23.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-1100343ed1a92e3a38f9ae122fc0eb21602547be-zip-fe553e.zip",
+                    "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                    "shasum": "1d4308faf9c14c3b98df3f97a6ff51c6d41a20a1"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2021-07-28T13:41:28+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 358
+            },
+            "v1.24.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.24.0",
+                "version_normalized": "1.24.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-57b712b08eddb97c762a8caa32c84e037892d2e9-zip-747caf.zip",
+                    "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9",
+                    "shasum": "d144c01336ddeb5942c38d62f6892617f00c9fdb"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2021-09-13T13:58:33+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 359
+            },
+            "v1.31.0": {
+                "name": "symfony/polyfill-php80",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-60328e362d4c2c802a54fcbf04f9d3fb892b4cf8-zip-2d8214.zip",
+                    "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                    "shasum": "e4d94caad6b779678a15cd3dd88b8a8bffeb722a"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 360
+            },
+            "1.x-dev": {
+                "name": "symfony/polyfill-php80",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php80.git",
+                    "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php80/symfony-polyfill-php80-60328e362d4c2c802a54fcbf04f9d3fb892b4cf8-zip-2d8214.zip",
+                    "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                    "shasum": "e4d94caad6b779678a15cd3dd88b8a8bffeb722a"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php80\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ion Bazan",
+                        "email": "ion.bazan@gmail.com"
+                    },
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 361
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "packages": {
+        "psr/container": [
+            {
+                "name": "psr/container",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/container.git",
+                    "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/psr/container/psr-container-513e0666f7216c7459170d56df27dfcefe1689ea-zip-1dff99.zip",
+                    "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+                    "shasum": "ec9bfa9f833125603ecb1295b7de00f593a03c0a"
+                },
+                "require": {
+                    "php": ">=7.4.0"
+                },
+                "time": "2021-11-05T16:50:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Container\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "https://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common Container Interface (PHP FIG PSR-11)",
+                "homepage": "https://github.com/php-fig/container",
+                "keywords": [
+                    "PSR-11",
+                    "container",
+                    "container-interface",
+                    "container-interop",
+                    "psr"
+                ],
+                "uid": 213
+            },
+            {
+                "name": "psr/container",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/container.git",
+                    "reference": "707984727bd5b2b670e59559d3ed2500240cf875"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/psr/container/psr-container-707984727bd5b2b670e59559d3ed2500240cf875-zip-0898b6.zip",
+                    "reference": "707984727bd5b2b670e59559d3ed2500240cf875",
+                    "shasum": "458150565cbdeeaae646c9974ce88bb0aa0306ec"
+                },
+                "require": {
+                    "php": ">=7.4.0"
+                },
+                "time": "2023-09-22T11:11:30+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Container\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "https://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common Container Interface (PHP FIG PSR-11)",
+                "homepage": "https://github.com/php-fig/container",
+                "keywords": [
+                    "PSR-11",
+                    "container",
+                    "container-interface",
+                    "container-interop",
+                    "psr"
+                ],
+                "uid": 215
+            }
+        ]
+    }
+}

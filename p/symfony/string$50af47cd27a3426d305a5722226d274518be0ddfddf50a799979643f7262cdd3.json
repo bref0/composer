@@ -1,0 +1,866 @@
+{
+    "packages": {
+        "symfony/string": {
+            "v5.1.0": {
+                "name": "symfony/string",
+                "version": "v5.1.0",
+                "version_normalized": "5.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "90c2a5103f07feb19069379f3abdcdbacc7753a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-90c2a5103f07feb19069379f3abdcdbacc7753a9-zip-64a51b.zip",
+                    "reference": "90c2a5103f07feb19069379f3abdcdbacc7753a9",
+                    "shasum": "31b822183c2d534d2cdb662497c4f61f4e60fe7a"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0",
+                    "symfony/http-client": "^4.4|^5.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0"
+                },
+                "time": "2020-05-20T17:43:50+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony String component",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 385
+            },
+            "v5.1.0-BETA1": {
+                "name": "symfony/string",
+                "version": "v5.1.0-BETA1",
+                "version_normalized": "5.1.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "0333d9d4ffc65ae2ed658780c21979c41b3e0d91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-0333d9d4ffc65ae2ed658780c21979c41b3e0d91-zip-7db2d3.zip",
+                    "reference": "0333d9d4ffc65ae2ed658780c21979c41b3e0d91",
+                    "shasum": "6b5055896ae4d09f8f2a1016e6417f028a454e59"
+                },
+                "require": {
+                    "php": "^7.2.5",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0",
+                    "symfony/http-client": "^4.4|^5.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0"
+                },
+                "time": "2020-05-05T15:08:52+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony String component",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 386
+            },
+            "v5.4.0": {
+                "name": "symfony/string",
+                "version": "v5.4.0",
+                "version_normalized": "5.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "9ffaaba53c61ba75a3c7a3a779051d1e9ec4fd2d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-9ffaaba53c61ba75a3c7a3a779051d1e9ec4fd2d-zip-6f8d80.zip",
+                    "reference": "9ffaaba53c61ba75a3c7a3a779051d1e9ec4fd2d",
+                    "shasum": "9e75337daabb9e89c633eb3697c6b5bda07d156c"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": ">=3.0"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0|^6.0",
+                    "symfony/http-client": "^4.4|^5.0|^6.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0|^6.0"
+                },
+                "time": "2021-11-24T10:02:00+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 387
+            },
+            "v5.4.0-BETA1": {
+                "name": "symfony/string",
+                "version": "v5.4.0-BETA1",
+                "version_normalized": "5.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "dad92b16d84cb661f39c85a5dbb6e4792b92e90f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-dad92b16d84cb661f39c85a5dbb6e4792b92e90f-zip-78522a.zip",
+                    "reference": "dad92b16d84cb661f39c85a5dbb6e4792b92e90f",
+                    "shasum": "61710db439a4f06ef07b5daeb0ed21f9e5d653a4"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0|^6.0",
+                    "symfony/http-client": "^4.4|^5.0|^6.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0|^6.0"
+                },
+                "time": "2021-10-28T19:23:26+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 388
+            },
+            "v5.4.47": {
+                "name": "symfony/string",
+                "version": "v5.4.47",
+                "version_normalized": "5.4.47.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "136ca7d72f72b599f2631aca474a4f8e26719799"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-136ca7d72f72b599f2631aca474a4f8e26719799-zip-c09a76.zip",
+                    "reference": "136ca7d72f72b599f2631aca474a4f8e26719799",
+                    "shasum": "7625cab16293f305b824dd9f4f7f8c89d6688a44"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": ">=3.0"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0|^6.0",
+                    "symfony/http-client": "^4.4|^5.0|^6.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0|^6.0"
+                },
+                "time": "2024-11-10T20:33:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 389
+            },
+            "5.4.x-dev": {
+                "name": "symfony/string",
+                "version": "5.4.x-dev",
+                "version_normalized": "5.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "136ca7d72f72b599f2631aca474a4f8e26719799"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-136ca7d72f72b599f2631aca474a4f8e26719799-zip-c09a76.zip",
+                    "reference": "136ca7d72f72b599f2631aca474a4f8e26719799",
+                    "shasum": "7625cab16293f305b824dd9f4f7f8c89d6688a44"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "~1.15"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": ">=3.0"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^4.4|^5.0|^6.0",
+                    "symfony/http-client": "^4.4|^5.0|^6.0",
+                    "symfony/translation-contracts": "^1.1|^2",
+                    "symfony/var-exporter": "^4.4|^5.0|^6.0"
+                },
+                "time": "2024-11-10T20:33:58+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 390
+            },
+            "v6.4.15": {
+                "name": "symfony/string",
+                "version": "v6.4.15",
+                "version_normalized": "6.4.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f-zip-3a253c.zip",
+                    "reference": "73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f",
+                    "shasum": "b8dfe23629c76a32ac7c7470e02588f48ad5b8dc"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": "<2.5"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^5.4|^6.0|^7.0",
+                    "symfony/http-client": "^5.4|^6.0|^7.0",
+                    "symfony/intl": "^6.2|^7.0",
+                    "symfony/translation-contracts": "^2.5|^3.0",
+                    "symfony/var-exporter": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-11-13T13:31:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 391
+            },
+            "6.4.x-dev": {
+                "name": "symfony/string",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f-zip-3a253c.zip",
+                    "reference": "73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f",
+                    "shasum": "b8dfe23629c76a32ac7c7470e02588f48ad5b8dc"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": "<2.5"
+                },
+                "require-dev": {
+                    "symfony/error-handler": "^5.4|^6.0|^7.0",
+                    "symfony/http-client": "^5.4|^6.0|^7.0",
+                    "symfony/intl": "^6.2|^7.0",
+                    "symfony/translation-contracts": "^2.5|^3.0",
+                    "symfony/var-exporter": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-11-13T13:31:12+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 392
+            },
+            "v7.2.0": {
+                "name": "symfony/string",
+                "version": "v7.2.0",
+                "version_normalized": "7.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-446e0d146f991dde3e73f45f2c97a9faad773c82-zip-cce34f.zip",
+                    "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82",
+                    "shasum": "a0a15dcd2e32bda48d4aa1adfe97f5bd9c4842da"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": "<2.5"
+                },
+                "require-dev": {
+                    "symfony/emoji": "^7.1",
+                    "symfony/error-handler": "^6.4|^7.0",
+                    "symfony/http-client": "^6.4|^7.0",
+                    "symfony/intl": "^6.4|^7.0",
+                    "symfony/translation-contracts": "^2.5|^3.0",
+                    "symfony/var-exporter": "^6.4|^7.0"
+                },
+                "time": "2024-11-13T13:31:26+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 393
+            },
+            "7.3.x-dev": {
+                "name": "symfony/string",
+                "version": "7.3.x-dev",
+                "version_normalized": "7.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/string.git",
+                    "reference": "373a11f2d03e71934a0023888edf3328a583e4ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/string/symfony-string-373a11f2d03e71934a0023888edf3328a583e4ec-zip-63908b.zip",
+                    "reference": "373a11f2d03e71934a0023888edf3328a583e4ec",
+                    "shasum": "06a0cb9e9749e4b4418e0b1cf6cb86ed0704a08d"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/polyfill-ctype": "~1.8",
+                    "symfony/polyfill-intl-grapheme": "~1.0",
+                    "symfony/polyfill-intl-normalizer": "~1.0",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": "<2.5"
+                },
+                "require-dev": {
+                    "symfony/emoji": "^7.1",
+                    "symfony/error-handler": "^6.4|^7.0",
+                    "symfony/http-client": "^6.4|^7.0",
+                    "symfony/intl": "^6.4|^7.0",
+                    "symfony/translation-contracts": "^2.5|^3.0",
+                    "symfony/var-exporter": "^6.4|^7.0"
+                },
+                "time": "2025-01-05T16:34:30+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\String\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "grapheme",
+                    "i18n",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utf8"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 394
+            }
+        }
+    }
+}

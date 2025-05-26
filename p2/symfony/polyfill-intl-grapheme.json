@@ -1,0 +1,143 @@
+{
+    "packages": {
+        "symfony/polyfill-intl-grapheme": [
+            {
+                "name": "symfony/polyfill-intl-grapheme",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                    "reference": "9332d285b58a16b144b3bf0bfd3b6334d9a43006"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-intl-grapheme/symfony-polyfill-intl-grapheme-9332d285b58a16b144b3bf0bfd3b6334d9a43006-zip-91fcb7.zip",
+                    "reference": "9332d285b58a16b144b3bf0bfd3b6334d9a43006",
+                    "shasum": "ba00b93b6e8681c6ac8a27e316770d444bffc38b"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2015-11-04T20:28:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's grapheme_* functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "grapheme",
+                    "intl",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 327
+            },
+            {
+                "name": "symfony/polyfill-intl-grapheme",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                    "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-intl-grapheme/symfony-polyfill-intl-grapheme-b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe-zip-b8b7d4.zip",
+                    "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
+                    "shasum": "3fc33881dbfc3ea7228fd2b838ed9a1eb9e50edd"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "suggest": {
+                    "ext-intl": "For best performance"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's grapheme_* functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "grapheme",
+                    "intl",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 328
+            }
+        ]
+    }
+}

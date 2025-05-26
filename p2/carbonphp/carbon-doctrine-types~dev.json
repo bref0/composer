@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "carbonphp/carbon-doctrine-types": [
+            {
+                "name": "carbonphp/carbon-doctrine-types",
+                "version": "dev-feature/stricter-types",
+                "version_normalized": "dev-feature/stricter-types",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+                    "reference": "5d99dc8bb5431b5193b2cb55336eabb01b830253"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/carbonphp/carbon-doctrine-types/carbonphp-carbon-doctrine-types-5d99dc8bb5431b5193b2cb55336eabb01b830253-zip-3b672c.zip",
+                    "reference": "5d99dc8bb5431b5193b2cb55336eabb01b830253",
+                    "shasum": "9136f389aeeaa7658b7d807859f38bd92df5782c"
+                },
+                "require": {
+                    "php": "^8.1"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<4.0.0 || >=5.0.0"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^4.0.0",
+                    "nesbot/carbon": "^2.71.0 || ^3.0.0",
+                    "phpunit/phpunit": "^10.3"
+                },
+                "time": "2024-04-07T15:16:35+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "KyleKatarn",
+                        "email": "kylekatarnls@gmail.com"
+                    }
+                ],
+                "description": "Types to use Carbon in Doctrine",
+                "keywords": [
+                    "carbon",
+                    "date",
+                    "datetime",
+                    "doctrine",
+                    "time"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/kylekatarnls",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/Carbon",
+                        "type": "open_collective"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 9
+            }
+        ]
+    }
+}

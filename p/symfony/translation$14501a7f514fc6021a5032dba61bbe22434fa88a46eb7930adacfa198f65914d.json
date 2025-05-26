@@ -1,0 +1,530 @@
+{
+    "packages": {
+        "symfony/translation": {
+            "v3.4.0": {
+                "name": "symfony/translation",
+                "version": "v3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa-zip-72d0be.zip",
+                    "reference": "e05b0a5996ad7a35ba3a19ffad8b72c9daa64dfa",
+                    "shasum": "c4e0ceba353a48ac15120aa30938168ccb1e3e6d"
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/config": "<2.8",
+                    "symfony/dependency-injection": "<3.4",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.4|~4.0",
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "psr/log": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2017-11-27T14:23:00+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com",
+                "uid": 395
+            },
+            "v3.4.0-BETA1": {
+                "name": "symfony/translation",
+                "version": "v3.4.0-BETA1",
+                "version_normalized": "3.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "24110f6b3f3fe5f9caa2a65bd3b8cba5f25be185"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-24110f6b3f3fe5f9caa2a65bd3b8cba5f25be185-zip-ac7b91.zip",
+                    "reference": "24110f6b3f3fe5f9caa2a65bd3b8cba5f25be185",
+                    "shasum": "07b0e0dc2ff540b738417b0792d189492097e29a"
+                },
+                "require": {
+                    "php": "^5.5.9|>=7.0.8",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/config": "<2.8",
+                    "symfony/dependency-injection": "<3.4",
+                    "symfony/yaml": "<3.4"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "~2.8|~3.0|~4.0",
+                    "symfony/dependency-injection": "~3.4|~4.0",
+                    "symfony/finder": "~2.8|~3.0|~4.0",
+                    "symfony/intl": "^2.8.18|^3.2.5|~4.0",
+                    "symfony/yaml": "~3.4|~4.0"
+                },
+                "suggest": {
+                    "psr/log": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2017-10-13T13:33:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.4-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony Translation Component",
+                "homepage": "https://symfony.com",
+                "uid": 396
+            },
+            "v5.4.45": {
+                "name": "symfony/translation",
+                "version": "v5.4.45",
+                "version_normalized": "5.4.45.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "98f26acc99341ca4bab345fb14d7b1d7cb825bed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-98f26acc99341ca4bab345fb14d7b1d7cb825bed-zip-3b9462.zip",
+                    "reference": "98f26acc99341ca4bab345fb14d7b1d7cb825bed",
+                    "shasum": "ce9ceb1758948e541090fd66a68e0be1d6ff7d01"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation-contracts": "^2.3"
+                },
+                "conflict": {
+                    "symfony/config": "<4.4",
+                    "symfony/console": "<5.3",
+                    "symfony/dependency-injection": "<5.0",
+                    "symfony/http-kernel": "<5.0",
+                    "symfony/twig-bundle": "<5.0",
+                    "symfony/yaml": "<4.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "2.3"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^4.4|^5.0|^6.0",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.0|^6.0",
+                    "symfony/finder": "^4.4|^5.0|^6.0",
+                    "symfony/http-client-contracts": "^1.1|^2.0|^3.0",
+                    "symfony/http-kernel": "^5.0|^6.0",
+                    "symfony/intl": "^4.4|^5.0|^6.0",
+                    "symfony/polyfill-intl-icu": "^1.21",
+                    "symfony/service-contracts": "^1.1.2|^2|^3",
+                    "symfony/yaml": "^4.4|^5.0|^6.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to internationalize your application",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 397
+            },
+            "5.4.x-dev": {
+                "name": "symfony/translation",
+                "version": "5.4.x-dev",
+                "version_normalized": "5.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "98f26acc99341ca4bab345fb14d7b1d7cb825bed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-98f26acc99341ca4bab345fb14d7b1d7cb825bed-zip-3b9462.zip",
+                    "reference": "98f26acc99341ca4bab345fb14d7b1d7cb825bed",
+                    "shasum": "ce9ceb1758948e541090fd66a68e0be1d6ff7d01"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation-contracts": "^2.3"
+                },
+                "conflict": {
+                    "symfony/config": "<4.4",
+                    "symfony/console": "<5.3",
+                    "symfony/dependency-injection": "<5.0",
+                    "symfony/http-kernel": "<5.0",
+                    "symfony/twig-bundle": "<5.0",
+                    "symfony/yaml": "<4.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "2.3"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^4.4|^5.0|^6.0",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.0|^6.0",
+                    "symfony/finder": "^4.4|^5.0|^6.0",
+                    "symfony/http-client-contracts": "^1.1|^2.0|^3.0",
+                    "symfony/http-kernel": "^5.0|^6.0",
+                    "symfony/intl": "^4.4|^5.0|^6.0",
+                    "symfony/polyfill-intl-icu": "^1.21",
+                    "symfony/service-contracts": "^1.1.2|^2|^3",
+                    "symfony/yaml": "^4.4|^5.0|^6.0"
+                },
+                "suggest": {
+                    "psr/log-implementation": "To use logging capability in translator",
+                    "symfony/config": "",
+                    "symfony/yaml": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to internationalize your application",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 398
+            },
+            "v6.4.13": {
+                "name": "symfony/translation",
+                "version": "v6.4.13",
+                "version_normalized": "6.4.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-bee9bfabfa8b4045a66bf82520e492cddbaffa66-zip-faaded.zip",
+                    "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
+                    "shasum": "0299c82bf060e9cc85827ac8a6af6eaa0d537faa"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation-contracts": "^2.5|^3.0"
+                },
+                "conflict": {
+                    "symfony/config": "<5.4",
+                    "symfony/console": "<5.4",
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/http-client-contracts": "<2.5",
+                    "symfony/http-kernel": "<5.4",
+                    "symfony/service-contracts": "<2.5",
+                    "symfony/twig-bundle": "<5.4",
+                    "symfony/yaml": "<5.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "2.3|3.0"
+                },
+                "require-dev": {
+                    "nikic/php-parser": "^4.18|^5.0",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0|^7.0",
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/finder": "^5.4|^6.0|^7.0",
+                    "symfony/http-client-contracts": "^2.5|^3.0",
+                    "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                    "symfony/intl": "^5.4|^6.0|^7.0",
+                    "symfony/polyfill-intl-icu": "^1.21",
+                    "symfony/routing": "^5.4|^6.0|^7.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/yaml": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-09-27T18:14:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to internationalize your application",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 399
+            },
+            "6.4.x-dev": {
+                "name": "symfony/translation",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation.git",
+                    "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation/symfony-translation-bee9bfabfa8b4045a66bf82520e492cddbaffa66-zip-faaded.zip",
+                    "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
+                    "shasum": "0299c82bf060e9cc85827ac8a6af6eaa0d537faa"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/translation-contracts": "^2.5|^3.0"
+                },
+                "conflict": {
+                    "symfony/config": "<5.4",
+                    "symfony/console": "<5.4",
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/http-client-contracts": "<2.5",
+                    "symfony/http-kernel": "<5.4",
+                    "symfony/service-contracts": "<2.5",
+                    "symfony/twig-bundle": "<5.4",
+                    "symfony/yaml": "<5.4"
+                },
+                "provide": {
+                    "symfony/translation-implementation": "2.3|3.0"
+                },
+                "require-dev": {
+                    "nikic/php-parser": "^4.18|^5.0",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0|^7.0",
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/finder": "^5.4|^6.0|^7.0",
+                    "symfony/http-client-contracts": "^2.5|^3.0",
+                    "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                    "symfony/intl": "^5.4|^6.0|^7.0",
+                    "symfony/polyfill-intl-icu": "^1.21",
+                    "symfony/routing": "^5.4|^6.0|^7.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/yaml": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-09-27T18:14:25+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "Resources/functions.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to internationalize your application",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 400
+            }
+        }
+    }
+}

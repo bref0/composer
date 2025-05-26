@@ -1,0 +1,495 @@
+{
+    "packages": {
+        "symfony/service-contracts": {
+            "v1.1.1": {
+                "name": "symfony/service-contracts",
+                "version": "v1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "191afdcb5804db960d26d8566b7e9a2843cab3a0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-191afdcb5804db960d26d8566b7e9a2843cab3a0-zip-12139d.zip",
+                    "reference": "191afdcb5804db960d26d8566b7e9a2843cab3a0",
+                    "shasum": "045cdac4c3949ae0129d4ace0bfca84007b0cc34"
+                },
+                "require": {
+                    "php": "^7.1.3"
+                },
+                "suggest": {
+                    "psr/container": "",
+                    "symfony/service-implementation": ""
+                },
+                "time": "2019-05-28T07:50:59+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 379
+            },
+            "v2.5.0": {
+                "name": "symfony/service-contracts",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc-zip-921d5e.zip",
+                    "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
+                    "shasum": "0dadd1851dfba0add2e8aa4f4610e5ef22fbb991"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/container": "^1.1",
+                    "symfony/deprecation-contracts": "^2.1"
+                },
+                "conflict": {
+                    "ext-psr": "<1.1|>=2"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "time": "2021-11-04T16:48:04+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 380
+            },
+            "v2.5.4": {
+                "name": "symfony/service-contracts",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "f37b419f7aea2e9abf10abd261832cace12e3300"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-f37b419f7aea2e9abf10abd261832cace12e3300-zip-0ff29e.zip",
+                    "reference": "f37b419f7aea2e9abf10abd261832cace12e3300",
+                    "shasum": "9962ab2b637a7949c9dcbed0d79291756bdea9f2"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/container": "^1.1",
+                    "symfony/deprecation-contracts": "^2.1|^3"
+                },
+                "conflict": {
+                    "ext-psr": "<1.1|>=2"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 381
+            },
+            "2.5.x-dev": {
+                "name": "symfony/service-contracts",
+                "version": "2.5.x-dev",
+                "version_normalized": "2.5.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "f37b419f7aea2e9abf10abd261832cace12e3300"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-f37b419f7aea2e9abf10abd261832cace12e3300-zip-0ff29e.zip",
+                    "reference": "f37b419f7aea2e9abf10abd261832cace12e3300",
+                    "shasum": "9962ab2b637a7949c9dcbed0d79291756bdea9f2"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/container": "^1.1",
+                    "symfony/deprecation-contracts": "^2.1|^3"
+                },
+                "conflict": {
+                    "ext-psr": "<1.1|>=2"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 382
+            },
+            "v3.5.1": {
+                "name": "symfony/service-contracts",
+                "version": "v3.5.1",
+                "version_normalized": "3.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "e53260aabf78fb3d63f8d79d69ece59f80d5eda0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-e53260aabf78fb3d63f8d79d69ece59f80d5eda0-zip-9b66e8.zip",
+                    "reference": "e53260aabf78fb3d63f8d79d69ece59f80d5eda0",
+                    "shasum": "94f8229785a97a6521ce83557457c5727b9557b3"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "psr/container": "^1.1|^2.0",
+                    "symfony/deprecation-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "ext-psr": "<1.1|>=2"
+                },
+                "time": "2024-09-25T14:20:29+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Test/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 383
+            },
+            "dev-main": {
+                "name": "symfony/service-contracts",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "5ad38698559cf88b6296629e19b15ef3239c9d7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/service-contracts/symfony-service-contracts-5ad38698559cf88b6296629e19b15ef3239c9d7a-zip-b9df42.zip",
+                    "reference": "5ad38698559cf88b6296629e19b15ef3239c9d7a",
+                    "shasum": "49a1c93bc00d5b1bbd61bc57d535a085ed8d25e1"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "psr/container": "^1.1|^2.0",
+                    "symfony/deprecation-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "ext-psr": "<1.1|>=2"
+                },
+                "time": "2024-09-25T14:21:43+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.6-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Test/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 384
+            }
+        }
+    }
+}

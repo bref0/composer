@@ -1,0 +1,85 @@
+{
+    "packages": {
+        "symfony/mailer": [
+            {
+                "name": "symfony/mailer",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mailer.git",
+                    "reference": "e93a6ae2767d7f7578c2b7961d9d8e27580b2b11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mailer/symfony-mailer-e93a6ae2767d7f7578c2b7961d9d8e27580b2b11-zip-283fbe.zip",
+                    "reference": "e93a6ae2767d7f7578c2b7961d9d8e27580b2b11",
+                    "shasum": "36c44de1c0432bd3d3ace11e43b12d5c53c3e693"
+                },
+                "require": {
+                    "egulias/email-validator": "^2.1.10|^3|^4",
+                    "php": ">=8.1",
+                    "psr/event-dispatcher": "^1",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                    "symfony/mime": "^6.2|^7.0",
+                    "symfony/service-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "symfony/http-client-contracts": "<2.5",
+                    "symfony/http-kernel": "<5.4",
+                    "symfony/messenger": "<6.2",
+                    "symfony/mime": "<6.2",
+                    "symfony/twig-bridge": "<6.2.1"
+                },
+                "require-dev": {
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/http-client": "^5.4|^6.0|^7.0",
+                    "symfony/messenger": "^6.2|^7.0",
+                    "symfony/twig-bridge": "^6.2|^7.0"
+                },
+                "time": "2025-01-24T15:27:15+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mailer\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Helps sending emails",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 307
+            }
+        ]
+    }
+}

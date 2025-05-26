@@ -1,0 +1,253 @@
+{
+    "packages": {
+        "dragonmantank/cron-expression": {
+            "v3.1.0": {
+                "name": "dragonmantank/cron-expression",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dragonmantank/cron-expression.git",
+                    "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/dragonmantank/cron-expression/dragonmantank-cron-expression-7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c-zip-4c01bb.zip",
+                    "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c",
+                    "shasum": "e05d59bb4288a79a694d52536c66dd224b4cf0a9"
+                },
+                "require": {
+                    "php": "^7.2|^8.0",
+                    "webmozart/assert": "^1.7.0"
+                },
+                "replace": {
+                    "mtdowling/cron-expression": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12",
+                    "phpstan/phpstan-webmozart-assert": "^0.12.7",
+                    "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                },
+                "time": "2020-11-24T19:55:57+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Cron\\": "src/Cron/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Tankersley",
+                        "email": "chris@ctankersley.com",
+                        "homepage": "https://github.com/dragonmantank"
+                    }
+                ],
+                "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+                "keywords": [
+                    "cron",
+                    "schedule"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/dragonmantank",
+                        "type": "github"
+                    }
+                ],
+                "uid": 29
+            },
+            "v3.3.2": {
+                "name": "dragonmantank/cron-expression",
+                "version": "v3.3.2",
+                "version_normalized": "3.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dragonmantank/cron-expression.git",
+                    "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/dragonmantank/cron-expression/dragonmantank-cron-expression-782ca5968ab8b954773518e9e49a6f892a34b2a8-zip-b5ea0c.zip",
+                    "reference": "782ca5968ab8b954773518e9e49a6f892a34b2a8",
+                    "shasum": "a9a2587f8d007dd0257fb59192c1b5fcc136fd75"
+                },
+                "require": {
+                    "php": "^7.2|^8.0",
+                    "webmozart/assert": "^1.0"
+                },
+                "replace": {
+                    "mtdowling/cron-expression": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^1.0",
+                    "phpstan/phpstan-webmozart-assert": "^1.0",
+                    "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                },
+                "time": "2022-09-10T18:51:20+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Cron\\": "src/Cron/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Tankersley",
+                        "email": "chris@ctankersley.com",
+                        "homepage": "https://github.com/dragonmantank"
+                    }
+                ],
+                "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+                "keywords": [
+                    "cron",
+                    "schedule"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/dragonmantank",
+                        "type": "github"
+                    }
+                ],
+                "uid": 30
+            },
+            "v3.4.0": {
+                "name": "dragonmantank/cron-expression",
+                "version": "v3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dragonmantank/cron-expression.git",
+                    "reference": "8c784d071debd117328803d86b2097615b457500"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/dragonmantank/cron-expression/dragonmantank-cron-expression-8c784d071debd117328803d86b2097615b457500-zip-f17544.zip",
+                    "reference": "8c784d071debd117328803d86b2097615b457500",
+                    "shasum": "d2e5ec339c49e7295aad499bc8f21fd1363edfe9"
+                },
+                "require": {
+                    "php": "^7.2|^8.0",
+                    "webmozart/assert": "^1.0"
+                },
+                "replace": {
+                    "mtdowling/cron-expression": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^1.0",
+                    "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                },
+                "time": "2024-10-09T13:47:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Cron\\": "src/Cron/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Tankersley",
+                        "email": "chris@ctankersley.com",
+                        "homepage": "https://github.com/dragonmantank"
+                    }
+                ],
+                "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+                "keywords": [
+                    "cron",
+                    "schedule"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/dragonmantank",
+                        "type": "github"
+                    }
+                ],
+                "uid": 31
+            },
+            "dev-master": {
+                "name": "dragonmantank/cron-expression",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dragonmantank/cron-expression.git",
+                    "reference": "f37e405332cd1cca9d287f5044ae2a72c2f53239"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/dragonmantank/cron-expression/dragonmantank-cron-expression-f37e405332cd1cca9d287f5044ae2a72c2f53239-zip-98c233.zip",
+                    "reference": "f37e405332cd1cca9d287f5044ae2a72c2f53239",
+                    "shasum": "aba60340782240de2264d0cdf4247f9c7861882d"
+                },
+                "require": {
+                    "php": "^7.2|^8.0"
+                },
+                "replace": {
+                    "mtdowling/cron-expression": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^1.0",
+                    "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                },
+                "time": "2024-10-21T12:57:55+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Cron\\": "src/Cron/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Tankersley",
+                        "email": "chris@ctankersley.com",
+                        "homepage": "https://github.com/dragonmantank"
+                    }
+                ],
+                "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+                "keywords": [
+                    "cron",
+                    "schedule"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/dragonmantank",
+                        "type": "github"
+                    }
+                ],
+                "uid": 32
+            }
+        }
+    }
+}

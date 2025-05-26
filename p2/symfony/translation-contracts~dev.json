@@ -1,0 +1,162 @@
+{
+    "packages": {
+        "symfony/translation-contracts": [
+            {
+                "name": "symfony/translation-contracts",
+                "version": "2.5.x-dev",
+                "version_normalized": "2.5.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation-contracts.git",
+                    "reference": "450d4172653f38818657022252f9d81be89ee9a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation-contracts/symfony-translation-contracts-450d4172653f38818657022252f9d81be89ee9a8-zip-0965da.zip",
+                    "reference": "450d4172653f38818657022252f9d81be89ee9a8",
+                    "shasum": "b6cb22052adb71765ef059ba423795a24b6dcf6b"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "suggest": {
+                    "symfony/translation-implementation": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Translation\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to translation",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 404
+            },
+            {
+                "name": "symfony/translation-contracts",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation-contracts.git",
+                    "reference": "df210c7a2573f1913b2d17cc95f90f53a73d8f7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/translation-contracts/symfony-translation-contracts-df210c7a2573f1913b2d17cc95f90f53a73d8f7d-zip-2ad5b5.zip",
+                    "reference": "df210c7a2573f1913b2d17cc95f90f53a73d8f7d",
+                    "shasum": "3d30d39048e1ee7f6786bec48a14cb6b5b027fd8"
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "time": "2024-09-27T08:32:26+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.6-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Translation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Test/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to translation",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 406
+            }
+        ]
+    }
+}

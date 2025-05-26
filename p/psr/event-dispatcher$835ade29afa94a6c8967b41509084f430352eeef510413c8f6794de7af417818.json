@@ -1,0 +1,107 @@
+{
+    "packages": {
+        "psr/event-dispatcher": {
+            "1.0.0": {
+                "name": "psr/event-dispatcher",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/event-dispatcher.git",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/psr/event-dispatcher/psr-event-dispatcher-dbefd12671e8a14ec7f180cab83036ed26714bb0-zip-673778.zip",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                    "shasum": "3fbc3209bde8053baeeb0ff18794d046658b4693"
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "time": "2019-01-08T18:20:26+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\EventDispatcher\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Standard interfaces for event handling.",
+                "keywords": [
+                    "events",
+                    "psr",
+                    "psr-14"
+                ],
+                "uid": 216
+            },
+            "dev-master": {
+                "name": "psr/event-dispatcher",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/event-dispatcher.git",
+                    "reference": "bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/psr/event-dispatcher/psr-event-dispatcher-bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874-zip-900b64.zip",
+                    "reference": "bbd9eacc080d33861e5b5c75b3b8c4d7e6d01874",
+                    "shasum": "cc287ce8b61ce4ee444a5ad1e578b85d3a6e4b0f"
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "suggest": {
+                    "fig/event-dispatcher-util": "Provides some useful PSR-14 utilities"
+                },
+                "time": "2024-03-17T21:29:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\EventDispatcher\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "https://www.php-fig.org/"
+                    }
+                ],
+                "description": "Standard interfaces for event handling.",
+                "keywords": [
+                    "events",
+                    "psr",
+                    "psr-14"
+                ],
+                "uid": 217
+            }
+        }
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "packages": {
+        "voku/portable-ascii": [
+            {
+                "name": "voku/portable-ascii",
+                "version": "1.4.8",
+                "version_normalized": "1.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/voku/portable-ascii.git",
+                    "reference": "a3801f5facf187a28cc2cae7b98a540c36406dc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/voku/portable-ascii/voku-portable-ascii-a3801f5facf187a28cc2cae7b98a540c36406dc4-zip-4f5727.zip",
+                    "reference": "a3801f5facf187a28cc2cae7b98a540c36406dc4",
+                    "shasum": "c6238c52bff8b06bdbab8602d351410cb830457f"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0 || ~7.0"
+                },
+                "suggest": {
+                    "ext-intl": "Use Intl for transliterator_transliterate() support"
+                },
+                "time": "2020-02-06T21:46:48+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "voku\\": "src/voku/",
+                        "voku\\tests\\": "tests/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lars Moelleken",
+                        "homepage": "http://www.moelleken.org/"
+                    }
+                ],
+                "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+                "homepage": "https://github.com/voku/portable-ascii",
+                "keywords": [
+                    "ascii",
+                    "clean",
+                    "php"
+                ],
+                "uid": 430
+            },
+            {
+                "name": "voku/portable-ascii",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/voku/portable-ascii.git",
+                    "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/voku/portable-ascii/voku-portable-ascii-87337c91b9dfacee02452244ee14ab3c43bc485a-zip-d6c6f7.zip",
+                    "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a",
+                    "shasum": "264eb34d819480d19c56458bd74c0f5352030e10"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+                },
+                "suggest": {
+                    "ext-intl": "Use Intl for transliterator_transliterate() support"
+                },
+                "time": "2022-01-24T18:55:24+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "voku\\": "src/voku/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lars Moelleken",
+                        "homepage": "http://www.moelleken.org/"
+                    }
+                ],
+                "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+                "homepage": "https://github.com/voku/portable-ascii",
+                "keywords": [
+                    "ascii",
+                    "clean",
+                    "php"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.paypal.me/moelleken",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/voku",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/portable-ascii",
+                        "type": "open_collective"
+                    },
+                    {
+                        "url": "https://www.patreon.com/voku",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 431
+            },
+            {
+                "name": "voku/portable-ascii",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/voku/portable-ascii.git",
+                    "reference": "9bd89e83cecdf8c37b64909454249eaed98b2c89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/voku/portable-ascii/voku-portable-ascii-9bd89e83cecdf8c37b64909454249eaed98b2c89-zip-7e1ac3.zip",
+                    "reference": "9bd89e83cecdf8c37b64909454249eaed98b2c89",
+                    "shasum": "938beec69ada1b7e68a268024abd45b3f6bcdcae"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+                },
+                "suggest": {
+                    "ext-intl": "Use Intl for transliterator_transliterate() support"
+                },
+                "time": "2022-01-24T18:59:03+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "voku\\": "src/voku/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lars Moelleken",
+                        "homepage": "http://www.moelleken.org/"
+                    }
+                ],
+                "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+                "homepage": "https://github.com/voku/portable-ascii",
+                "keywords": [
+                    "ascii",
+                    "clean",
+                    "php"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.paypal.me/moelleken",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/voku",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/portable-ascii",
+                        "type": "open_collective"
+                    },
+                    {
+                        "url": "https://www.patreon.com/voku",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 432
+            },
+            {
+                "name": "voku/portable-ascii",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/voku/portable-ascii.git",
+                    "reference": "b1d923f88091c6bf09699efcd7c8a1b1bfd7351d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/voku/portable-ascii/voku-portable-ascii-b1d923f88091c6bf09699efcd7c8a1b1bfd7351d-zip-4c6162.zip",
+                    "reference": "b1d923f88091c6bf09699efcd7c8a1b1bfd7351d",
+                    "shasum": "f59a46b7b58ee46f050652f17cfc766a384a058a"
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+                },
+                "suggest": {
+                    "ext-intl": "Use Intl for transliterator_transliterate() support"
+                },
+                "time": "2024-11-21T01:49:47+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "voku\\": "src/voku/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Lars Moelleken",
+                        "homepage": "https://www.moelleken.org/"
+                    }
+                ],
+                "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+                "homepage": "https://github.com/voku/portable-ascii",
+                "keywords": [
+                    "ascii",
+                    "clean",
+                    "php"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.paypal.me/moelleken",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/voku",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/portable-ascii",
+                        "type": "open_collective"
+                    },
+                    {
+                        "url": "https://www.patreon.com/voku",
+                        "type": "patreon"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 433
+            }
+        ]
+    }
+}

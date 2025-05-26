@@ -1,0 +1,212 @@
+{
+    "packages": {
+        "webmozart/assert": [
+            {
+                "name": "webmozart/assert",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/webmozarts/assert.git",
+                    "reference": "3371442b05531d8490d0b51b90b55e61948b0f10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/webmozart/assert/webmozart-assert-3371442b05531d8490d0b51b90b55e61948b0f10-zip-885f0e.zip",
+                    "reference": "3371442b05531d8490d0b51b90b55e61948b0f10",
+                    "shasum": "3194abc17f94c4c125392aa86fefb24bf3c34014"
+                },
+                "require": {
+                    "php": ">=5.3.9"
+                },
+                "time": "2015-05-12T12:40:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Webmozart\\Assert\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Efficient assertions to validate the input/output of your methods.",
+                "keywords": [
+                    "assert",
+                    "check",
+                    "validate"
+                ],
+                "uid": 434
+            },
+            {
+                "name": "webmozart/assert",
+                "version": "1.0.0-beta",
+                "version_normalized": "1.0.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/webmozarts/assert.git",
+                    "reference": "e0014a40f6a152293ee63d97b59d52e78ce7e098"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/webmozart/assert/webmozart-assert-e0014a40f6a152293ee63d97b59d52e78ce7e098-zip-cdc36e.zip",
+                    "reference": "e0014a40f6a152293ee63d97b59d52e78ce7e098",
+                    "shasum": "1ea9fa2e16fd6e4a6647c6f493a2f5e523be162c"
+                },
+                "require": {
+                    "php": ">=5.3.9"
+                },
+                "time": "2015-03-19T11:05:13+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Webmozart\\Assert\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Efficient assertions to validate the input/output of your methods.",
+                "keywords": [
+                    "assert",
+                    "check",
+                    "validate"
+                ],
+                "uid": 435
+            },
+            {
+                "name": "webmozart/assert",
+                "version": "1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/webmozarts/assert.git",
+                    "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/webmozart/assert/webmozart-assert-11cb2199493b2f8a3b53e7f19068fc6aac760991-zip-d8c490.zip",
+                    "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                    "shasum": "aee504fd96236c361251694d9a20b9b3de80fc14"
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "php": "^7.2 || ^8.0"
+                },
+                "conflict": {
+                    "phpstan/phpstan": "<0.12.20",
+                    "vimeo/psalm": "<4.6.1 || 4.6.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5.13"
+                },
+                "time": "2022-06-03T18:03:27+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.10-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Webmozart\\Assert\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Assertions to validate method input/output with nice error messages.",
+                "keywords": [
+                    "assert",
+                    "check",
+                    "validate"
+                ],
+                "uid": 436
+            },
+            {
+                "name": "webmozart/assert",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/webmozarts/assert.git",
+                    "reference": "aed98a490f9a8f78468232db345ab9cf606cf598"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/webmozart/assert/webmozart-assert-aed98a490f9a8f78468232db345ab9cf606cf598-zip-7d7973.zip",
+                    "reference": "aed98a490f9a8f78468232db345ab9cf606cf598",
+                    "shasum": "95fb2ea87c52ebd548b1c81239b53960e3e19f99"
+                },
+                "require": {
+                    "php": "^5.3.3 || ^7.0",
+                    "symfony/polyfill-ctype": "^1.8"
+                },
+                "conflict": {
+                    "vimeo/psalm": "<3.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8.36 || ^7.5.13"
+                },
+                "time": "2020-02-14T12:15:55+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Webmozart\\Assert\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Bernhard Schussek",
+                        "email": "bschussek@gmail.com"
+                    }
+                ],
+                "description": "Assertions to validate method input/output with nice error messages.",
+                "keywords": [
+                    "assert",
+                    "check",
+                    "validate"
+                ],
+                "uid": 437
+            }
+        ]
+    }
+}

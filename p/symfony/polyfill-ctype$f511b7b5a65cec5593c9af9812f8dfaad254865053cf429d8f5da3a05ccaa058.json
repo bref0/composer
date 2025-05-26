@@ -1,0 +1,382 @@
+{
+    "packages": {
+        "symfony/polyfill-ctype": {
+            "v1.23.0": {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.23.0",
+                "version_normalized": "1.23.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-ctype/symfony-polyfill-ctype-46cd95797e9df938fdd2b03693b5fca5e64b01ce-zip-0bfacb.zip",
+                    "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                    "shasum": "00a0de4b32bb49474868dfa60cb53578b987f499"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "time": "2021-02-19T12:13:01+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 322
+            },
+            "v1.24.0": {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.24.0",
+                "version_normalized": "1.24.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "30885182c981ab175d4d034db0f6f469898070ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-ctype/symfony-polyfill-ctype-30885182c981ab175d4d034db0f6f469898070ab-zip-6280c0.zip",
+                    "reference": "30885182c981ab175d4d034db0f6f469898070ab",
+                    "shasum": "a1b020b82b2276f136acd57e7df5790509a33df4"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "provide": {
+                    "ext-ctype": "*"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "time": "2021-10-20T20:35:02+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 323
+            },
+            "v1.31.0": {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-ctype/symfony-polyfill-ctype-a3cc8b044a6ea513310cbd48ef7333b384945638-zip-ac22d9.zip",
+                    "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                    "shasum": "89d804f2ac50e2f71600b61d24f5cc59e89b8560"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "provide": {
+                    "ext-ctype": "*"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 324
+            },
+            "v1.8.0": {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-ctype/symfony-polyfill-ctype-7cc359f1b7b80fc25ed7796be7d96adc9b354bae-zip-03a31b.zip",
+                    "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                    "shasum": "a2fc052d53178dd463d17ed80ff24b97874cf714"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2018-04-30T19:57:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.8-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    },
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ],
+                "uid": 325
+            },
+            "1.x-dev": {
+                "name": "symfony/polyfill-ctype",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-ctype/symfony-polyfill-ctype-a3cc8b044a6ea513310cbd48ef7333b384945638-zip-ac22d9.zip",
+                    "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                    "shasum": "89d804f2ac50e2f71600b61d24f5cc59e89b8560"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "provide": {
+                    "ext-ctype": "*"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 326
+            }
+        }
+    }
+}

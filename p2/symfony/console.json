@@ -1,0 +1,770 @@
+{
+    "packages": {
+        "symfony/console": [
+            {
+                "name": "symfony/console",
+                "version": "v5.3.0",
+                "version_normalized": "5.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "058553870f7809087fa80fa734704a21b9bcaeb2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-058553870f7809087fa80fa734704a21b9bcaeb2-zip-a43104.zip",
+                    "reference": "058553870f7809087fa80fa734704a21b9bcaeb2",
+                    "shasum": "19d76b711baa12d1e25158724afe451ad3f267ff"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2021-05-26T17:43:10+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 234
+            },
+            {
+                "name": "symfony/console",
+                "version": "v5.3.0-BETA1",
+                "version_normalized": "5.3.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "1d077bd682f7c0794d5f5b794b16e2b30febec6b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-1d077bd682f7c0794d5f5b794b16e2b30febec6b-zip-14d32f.zip",
+                    "reference": "1d077bd682f7c0794d5f5b794b16e2b30febec6b",
+                    "shasum": "45fb7c89f304120d2139371cfa33d6187dba33e4"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2021-04-16T17:36:28+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 235
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "675a4e6b05029a02ac43d3daf5aa73f039e876ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-675a4e6b05029a02ac43d3daf5aa73f039e876ea-zip-978f40.zip",
+                    "reference": "675a4e6b05029a02ac43d3daf5aa73f039e876ea",
+                    "shasum": "75df29c437cc493cc5da62f492ea60fe27a47eed"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^1.1|^2|^3",
+                    "symfony/string": "^5.4|^6.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0",
+                    "symfony/lock": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/var-dumper": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2021-11-29T15:32:57+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 236
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.0.0-BETA1",
+                "version_normalized": "6.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "b15afc0c88ded99920b45020751145c82707067d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-b15afc0c88ded99920b45020751145c82707067d-zip-a54b50.zip",
+                    "reference": "b15afc0c88ded99920b45020751145c82707067d",
+                    "shasum": "9162e7dd88302d46bfb9ad14430a3acdd1874502"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^1.1|^2.0|^3.0",
+                    "symfony/string": "^5.4|^6.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0",
+                    "symfony/lock": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/var-dumper": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2021-11-04T17:14:40+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 237
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.0.3",
+                "version_normalized": "6.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "22e8efd019c3270c4f79376234a3f8752cd25490"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-22e8efd019c3270c4f79376234a3f8752cd25490-zip-360777.zip",
+                    "reference": "22e8efd019c3270c4f79376234a3f8752cd25490",
+                    "shasum": "5ca574b81b930df73734eae1c39611dcca28557a"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^1.1|^2|^3",
+                    "symfony/string": "^5.4|^6.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0",
+                    "symfony/lock": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/var-dumper": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2022-01-26T17:23:29+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 238
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.0.9",
+                "version_normalized": "6.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "9b190bc7a19d19add1dbb3382721973836e59b50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-9b190bc7a19d19add1dbb3382721973836e59b50-zip-24908d.zip",
+                    "reference": "9b190bc7a19d19add1dbb3382721973836e59b50",
+                    "shasum": "14fdef1c06853d341177b4f1d879241c4240a031"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^1.1|^2|^3",
+                    "symfony/string": "^5.4|^6.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0",
+                    "symfony/lock": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/var-dumper": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "time": "2022-05-27T06:40:13+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 239
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.4.15",
+                "version_normalized": "6.4.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "f1fc6f47283e27336e7cebb9e8946c8de7bff9bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-f1fc6f47283e27336e7cebb9e8946c8de7bff9bd-zip-d66ddc.zip",
+                    "reference": "f1fc6f47283e27336e7cebb9e8946c8de7bff9bd",
+                    "shasum": "faf639da52af79ceb44ce36d4cdda7134c29db0f"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/string": "^5.4|^6.0|^7.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                    "symfony/http-foundation": "^6.4|^7.0",
+                    "symfony/http-kernel": "^6.4|^7.0",
+                    "symfony/lock": "^5.4|^6.0|^7.0",
+                    "symfony/messenger": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.0|^7.0",
+                    "symfony/stopwatch": "^5.4|^6.0|^7.0",
+                    "symfony/var-dumper": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-11-06T14:19:14+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command-line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 240
+            },
+            {
+                "name": "symfony/console",
+                "version": "v6.4.17",
+                "version_normalized": "6.4.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "799445db3f15768ecc382ac5699e6da0520a0a04"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/console/symfony-console-799445db3f15768ecc382ac5699e6da0520a0a04-zip-ed5d06.zip",
+                    "reference": "799445db3f15768ecc382ac5699e6da0520a0a04",
+                    "shasum": "97e52f98ce841588b2efc821dd0058de660d4b0c"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/string": "^5.4|^6.0|^7.0"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/dotenv": "<5.4",
+                    "symfony/event-dispatcher": "<5.4",
+                    "symfony/lock": "<5.4",
+                    "symfony/process": "<5.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0|2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                    "symfony/http-foundation": "^6.4|^7.0",
+                    "symfony/http-kernel": "^6.4|^7.0",
+                    "symfony/lock": "^5.4|^6.0|^7.0",
+                    "symfony/messenger": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.0|^7.0",
+                    "symfony/stopwatch": "^5.4|^6.0|^7.0",
+                    "symfony/var-dumper": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-12-07T12:07:30+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command-line",
+                    "console",
+                    "terminal"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 241
+            }
+        ]
+    }
+}

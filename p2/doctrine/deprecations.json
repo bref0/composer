@@ -1,0 +1,92 @@
+{
+    "packages": {
+        "doctrine/deprecations": [
+            {
+                "name": "doctrine/deprecations",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/deprecations.git",
+                    "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/doctrine/deprecations/doctrine-deprecations-0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de-zip-37a7a3.zip",
+                    "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+                    "shasum": "cc5fecf64f4dd8c74d2b669daa8418549e30c231"
+                },
+                "require": {
+                    "php": "^7.1|^8.0"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^9",
+                    "phpunit/phpunit": "^7.5|^8.5|^9.5",
+                    "psr/log": "^1|^2|^3"
+                },
+                "suggest": {
+                    "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+                },
+                "time": "2022-05-02T15:47:09+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Deprecations\\": "lib/Doctrine/Deprecations"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+                "homepage": "https://www.doctrine-project.org/",
+                "uid": 13
+            },
+            {
+                "name": "doctrine/deprecations",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/deprecations.git",
+                    "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/doctrine/deprecations/doctrine-deprecations-31610dbb31faa98e6b5447b62340826f54fbc4e9-zip-976268.zip",
+                    "reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9",
+                    "shasum": "b21567d029e8b0d77854e04c34df183cd7bf26ef"
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^9 || ^12",
+                    "phpstan/phpstan": "1.4.10 || 2.0.3",
+                    "phpstan/phpstan-phpunit": "^1.0 || ^2",
+                    "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                    "psr/log": "^1 || ^2 || ^3"
+                },
+                "suggest": {
+                    "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+                },
+                "time": "2024-12-07T21:18:45+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Deprecations\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+                "homepage": "https://www.doctrine-project.org/",
+                "uid": 14
+            }
+        ]
+    }
+}

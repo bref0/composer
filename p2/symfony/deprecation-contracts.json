@@ -1,0 +1,269 @@
+{
+    "packages": {
+        "symfony/deprecation-contracts": [
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "ede224dcbc36138943a296107db2b8b2a690ac1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/deprecation-contracts/symfony-deprecation-contracts-ede224dcbc36138943a296107db2b8b2a690ac1c-zip-ab2d43.zip",
+                    "reference": "ede224dcbc36138943a296107db2b8b2a690ac1c",
+                    "shasum": "e139e940c058ca719facf79993152d14f9446b92"
+                },
+                "require": {
+                    "php": "^7.1"
+                },
+                "time": "2020-02-14T07:31:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 253
+            },
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/deprecation-contracts/symfony-deprecation-contracts-6f981ee24cf69ee7ce9736146d1c57c2780598a8-zip-63064b.zip",
+                    "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+                    "shasum": "6958113d9eae3355a36565b8999bffd9d76d3d2f"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2021-07-12T14:48:14+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 254
+            },
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "605389f2a7e5625f273b53960dc46aeaf9c62918"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/deprecation-contracts/symfony-deprecation-contracts-605389f2a7e5625f273b53960dc46aeaf9c62918-zip-ec488a.zip",
+                    "reference": "605389f2a7e5625f273b53960dc46aeaf9c62918",
+                    "shasum": "3b220f10af7cab3d0e34b66b45dc5941219648cd"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 255
+            },
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v3.5.1",
+                "version_normalized": "3.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/deprecation-contracts/symfony-deprecation-contracts-74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6-zip-fce63f.zip",
+                    "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                    "shasum": "9b930a31ded55d0e9b5e02588f27b4b98efc4708"
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "time": "2024-09-25T14:20:29+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 257
+            }
+        ]
+    }
+}

@@ -1,0 +1,413 @@
+{
+    "packages": {
+        "nesbot/carbon": {
+            "2.53.1": {
+                "name": "nesbot/carbon",
+                "version": "2.53.1",
+                "version_normalized": "2.53.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/CarbonPHP/carbon.git",
+                    "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nesbot/carbon/nesbot-carbon-f4655858a784988f880c1b8c7feabbf02dfdf045-zip-d62669.zip",
+                    "reference": "f4655858a784988f880c1b8c7feabbf02dfdf045",
+                    "shasum": "082686c4e91667d87a4fdf312e02832ae1f25141"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": "^7.1.8 || ^8.0",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                },
+                "require-dev": {
+                    "doctrine/orm": "^2.7",
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "kylekatarnls/multi-tester": "^2.0",
+                    "phpmd/phpmd": "^2.9",
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12.54",
+                    "phpunit/phpunit": "^7.5.20 || ^8.5.14",
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "time": "2021-09-06T09:29:23+00:00",
+                "bin": [
+                    "bin/carbon"
+                ],
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Carbon\\Laravel\\ServiceProvider"
+                        ]
+                    },
+                    "phpstan": {
+                        "includes": [
+                            "extension.neon"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-3.x": "3.x-dev",
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Carbon\\": "src/Carbon/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Nesbitt",
+                        "email": "brian@nesbot.com",
+                        "homepage": "https://markido.com"
+                    },
+                    {
+                        "name": "kylekatarnls",
+                        "homepage": "https://github.com/kylekatarnls"
+                    }
+                ],
+                "description": "An API extension for DateTime that supports 281 different languages.",
+                "homepage": "https://carbon.nesbot.com",
+                "keywords": [
+                    "date",
+                    "datetime",
+                    "time"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/kylekatarnls",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/Carbon",
+                        "type": "open_collective"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 188
+            },
+            "2.62.1": {
+                "name": "nesbot/carbon",
+                "version": "2.62.1",
+                "version_normalized": "2.62.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/CarbonPHP/carbon.git",
+                    "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nesbot/carbon/nesbot-carbon-01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a-zip-11f0ed.zip",
+                    "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
+                    "shasum": "3a0d668b73570b08aa1bbcdabd0d282c1dc67319"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": "^7.1.8 || ^8.0",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^2.0 || ^3.0",
+                    "doctrine/orm": "^2.7",
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "kylekatarnls/multi-tester": "^2.0",
+                    "ondrejmirtes/better-reflection": "*",
+                    "phpmd/phpmd": "^2.9",
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                    "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                    "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "time": "2022-09-02T07:48:13+00:00",
+                "bin": [
+                    "bin/carbon"
+                ],
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Carbon\\Laravel\\ServiceProvider"
+                        ]
+                    },
+                    "phpstan": {
+                        "includes": [
+                            "extension.neon"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-3.x": "3.x-dev",
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Carbon\\": "src/Carbon/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Nesbitt",
+                        "email": "brian@nesbot.com",
+                        "homepage": "https://markido.com"
+                    },
+                    {
+                        "name": "kylekatarnls",
+                        "homepage": "https://github.com/kylekatarnls"
+                    }
+                ],
+                "description": "An API extension for DateTime that supports 281 different languages.",
+                "homepage": "https://carbon.nesbot.com",
+                "keywords": [
+                    "date",
+                    "datetime",
+                    "time"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sponsors/kylekatarnls",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/Carbon#sponsor",
+                        "type": "opencollective"
+                    },
+                    {
+                        "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 189
+            },
+            "2.72.6": {
+                "name": "nesbot/carbon",
+                "version": "2.72.6",
+                "version_normalized": "2.72.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/CarbonPHP/carbon.git",
+                    "reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nesbot/carbon/nesbot-carbon-1e9d50601e7035a4c61441a208cb5bed73e108c5-zip-c1e1ed.zip",
+                    "reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5",
+                    "shasum": "6a870dccbd21c961e5368305531aa6cb2809369d"
+                },
+                "require": {
+                    "carbonphp/carbon-doctrine-types": "*",
+                    "ext-json": "*",
+                    "php": "^7.1.8 || ^8.0",
+                    "psr/clock": "^1.0",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+                },
+                "provide": {
+                    "psr/clock-implementation": "1.0"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^2.0 || ^3.1.4 || ^4.0",
+                    "doctrine/orm": "^2.7 || ^3.0",
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "kylekatarnls/multi-tester": "^2.0",
+                    "ondrejmirtes/better-reflection": "<6",
+                    "phpmd/phpmd": "^2.9",
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                    "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                    "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "time": "2024-12-27T09:28:11+00:00",
+                "bin": [
+                    "bin/carbon"
+                ],
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Carbon\\Laravel\\ServiceProvider"
+                        ]
+                    },
+                    "phpstan": {
+                        "includes": [
+                            "extension.neon"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-2.x": "2.x-dev",
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Carbon\\": "src/Carbon/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Nesbitt",
+                        "email": "brian@nesbot.com",
+                        "homepage": "https://markido.com"
+                    },
+                    {
+                        "name": "kylekatarnls",
+                        "homepage": "https://github.com/kylekatarnls"
+                    }
+                ],
+                "description": "An API extension for DateTime that supports 281 different languages.",
+                "homepage": "https://carbon.nesbot.com",
+                "keywords": [
+                    "date",
+                    "datetime",
+                    "time"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sponsors/kylekatarnls",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/Carbon#sponsor",
+                        "type": "opencollective"
+                    },
+                    {
+                        "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 190
+            },
+            "2.x-dev": {
+                "name": "nesbot/carbon",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/CarbonPHP/carbon.git",
+                    "reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nesbot/carbon/nesbot-carbon-9228ce90e1035ff2f0db84b40ec2e023ed802075-zip-6d0fa8.zip",
+                    "reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075",
+                    "shasum": "6c0e5cc5ad8e820b6453b8bf0c3d6041a3f87cc3"
+                },
+                "require": {
+                    "carbonphp/carbon-doctrine-types": "*",
+                    "ext-json": "*",
+                    "php": "^7.1.8 || ^8.0",
+                    "psr/clock": "^1.0",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16",
+                    "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+                },
+                "provide": {
+                    "psr/clock-implementation": "1.0"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^2.0 || ^3.1.4 || ^4.0",
+                    "doctrine/orm": "^2.7 || ^3.0",
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "kylekatarnls/multi-tester": "^2.0",
+                    "ondrejmirtes/better-reflection": "<6",
+                    "phpmd/phpmd": "^2.9",
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                    "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                    "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
+                    "squizlabs/php_codesniffer": "^3.4"
+                },
+                "time": "2025-01-08T20:10:23+00:00",
+                "bin": [
+                    "bin/carbon"
+                ],
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Carbon\\Laravel\\ServiceProvider"
+                        ]
+                    },
+                    "phpstan": {
+                        "includes": [
+                            "extension.neon"
+                        ]
+                    },
+                    "branch-alias": {
+                        "dev-2.x": "2.x-dev",
+                        "dev-master": "3.x-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Carbon\\": "src/Carbon/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Nesbitt",
+                        "email": "brian@nesbot.com",
+                        "homepage": "https://markido.com"
+                    },
+                    {
+                        "name": "kylekatarnls",
+                        "homepage": "https://github.com/kylekatarnls"
+                    }
+                ],
+                "description": "An API extension for DateTime that supports 281 different languages.",
+                "homepage": "https://carbon.nesbot.com",
+                "keywords": [
+                    "date",
+                    "datetime",
+                    "time"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/sponsors/kylekatarnls",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://opencollective.com/Carbon#sponsor",
+                        "type": "opencollective"
+                    },
+                    {
+                        "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 191
+            }
+        }
+    }
+}

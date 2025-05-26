@@ -1,0 +1,455 @@
+{
+    "packages": {
+        "symfony/event-dispatcher-contracts": {
+            "v2.0.0": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "bb09b1d8f8a35243195189ded0d41bdc798ac2fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-bb09b1d8f8a35243195189ded0d41bdc798ac2fb-zip-674868.zip",
+                    "reference": "bb09b1d8f8a35243195189ded0d41bdc798ac2fb",
+                    "shasum": "7d701332c4f60423c57ebfe8cbd62be6c062b98f"
+                },
+                "require": {
+                    "php": "^7.2.9",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "time": "2019-11-09T09:18:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "uid": 275
+            },
+            "v2.5.0": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "66bea3b09be61613cd3b4043a65a8ec48cfa6d2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-66bea3b09be61613cd3b4043a65a8ec48cfa6d2a-zip-608d74.zip",
+                    "reference": "66bea3b09be61613cd3b4043a65a8ec48cfa6d2a",
+                    "shasum": "4b9bdd9716e448d6801e0ae3ee681e02d3d1fb12"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "time": "2021-07-12T14:48:14+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 276
+            },
+            "v2.5.4": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f-zip-3e363c.zip",
+                    "reference": "e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f",
+                    "shasum": "3273de0f59c52621895ea58ccd4497653d074be9"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 277
+            },
+            "2.5.x-dev": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "2.5.x-dev",
+                "version_normalized": "2.5.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f-zip-3e363c.zip",
+                    "reference": "e0fe3d79b516eb75126ac6fa4cbf19b79b08c99f",
+                    "shasum": "3273de0f59c52621895ea58ccd4497653d074be9"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 278
+            },
+            "v3.5.1": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v3.5.1",
+                "version_normalized": "3.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "7642f5e970b672283b7823222ae8ef8bbc160b9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-7642f5e970b672283b7823222ae8ef8bbc160b9f-zip-138ef0.zip",
+                    "reference": "7642f5e970b672283b7823222ae8ef8bbc160b9f",
+                    "shasum": "388b437946885e6a455ced35b8568eb2413b4313"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "psr/event-dispatcher": "^1"
+                },
+                "time": "2024-09-25T14:20:29+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.5-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 279
+            },
+            "dev-main": {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "59eb412e93815df44f05f342958efa9f46b1e586"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher-contracts/symfony-event-dispatcher-contracts-59eb412e93815df44f05f342958efa9f46b1e586-zip-daa606.zip",
+                    "reference": "59eb412e93815df44f05f342958efa9f46b1e586",
+                    "shasum": "ab9384bfeb05d99b1b58291b9fd45126be781ae9"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "psr/event-dispatcher": "^1"
+                },
+                "time": "2024-09-25T14:21:43+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/contracts",
+                        "name": "symfony/contracts"
+                    },
+                    "branch-alias": {
+                        "dev-main": "3.6-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 280
+            }
+        }
+    }
+}

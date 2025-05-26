@@ -1,0 +1,156 @@
+{
+    "packages": {
+        "guzzlehttp/uri-template": [
+            {
+                "name": "guzzlehttp/uri-template",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/uri-template.git",
+                    "reference": "88fcf8a3ea7489a8af6b25c9dfd3f688ddb51966"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/guzzlehttp/uri-template/guzzlehttp-uri-template-88fcf8a3ea7489a8af6b25c9dfd3f688ddb51966-zip-e51bd5.zip",
+                    "reference": "88fcf8a3ea7489a8af6b25c9dfd3f688ddb51966",
+                    "shasum": "201fde0d2b539b5afc3934510cd934d3fa1cec5e"
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0",
+                    "symfony/polyfill-php80": "^1.17"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5.19 || ^9.5.8",
+                    "uri-template/tests": "1.0.0"
+                },
+                "time": "2021-08-14T22:34:51+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\UriTemplate\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "George Mponos",
+                        "email": "gmponos@gmail.com",
+                        "homepage": "https://github.com/gmponos",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A polyfill class for uri_template of PHP",
+                "homepage": "https://github.com/guzzlehttp/uri-template",
+                "keywords": [
+                    "guzzlehttp",
+                    "uri-template"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/gmponos",
+                        "type": "github"
+                    }
+                ],
+                "uid": 46
+            },
+            {
+                "name": "guzzlehttp/uri-template",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/guzzle/uri-template.git",
+                    "reference": "30e286560c137526eccd4ce21b2de477ab0676d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/guzzlehttp/uri-template/guzzlehttp-uri-template-30e286560c137526eccd4ce21b2de477ab0676d2-zip-5760f4.zip",
+                    "reference": "30e286560c137526eccd4ce21b2de477ab0676d2",
+                    "shasum": "5c72cfa5c844233bb899fa51cc27ff2c01f574ba"
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0",
+                    "symfony/polyfill-php80": "^1.24"
+                },
+                "require-dev": {
+                    "bamarni/composer-bin-plugin": "^1.8.2",
+                    "phpunit/phpunit": "^8.5.36 || ^9.6.15",
+                    "uri-template/tests": "1.0.0"
+                },
+                "time": "2025-02-03T10:55:03+00:00",
+                "type": "library",
+                "extra": {
+                    "bamarni-bin": {
+                        "bin-links": true,
+                        "forward-command": false
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "GuzzleHttp\\UriTemplate\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Graham Campbell",
+                        "email": "hello@gjcampbell.co.uk",
+                        "homepage": "https://github.com/GrahamCampbell"
+                    },
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    },
+                    {
+                        "name": "George Mponos",
+                        "email": "gmponos@gmail.com",
+                        "homepage": "https://github.com/gmponos"
+                    },
+                    {
+                        "name": "Tobias Nyholm",
+                        "email": "tobias.nyholm@gmail.com",
+                        "homepage": "https://github.com/Nyholm"
+                    }
+                ],
+                "description": "A polyfill class for uri_template of PHP",
+                "keywords": [
+                    "guzzlehttp",
+                    "uri-template"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/Nyholm",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/uri-template",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 47
+            }
+        ]
+    }
+}

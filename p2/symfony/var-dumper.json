@@ -1,0 +1,855 @@
+{
+    "packages": {
+        "symfony/var-dumper": [
+            {
+                "name": "symfony/var-dumper",
+                "version": "v4.4.0",
+                "version_normalized": "4.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "eade2890f8b0eeb279b6cf41b50a10007294490f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-eade2890f8b0eeb279b6cf41b50a10007294490f-zip-42cd11.zip",
+                    "reference": "eade2890f8b0eeb279b6cf41b50a10007294490f",
+                    "shasum": "dd1db4027c94dd7cb7fbaa7efb3ed93eda3e5ff2"
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php72": "~1.5"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                    "symfony/console": "<3.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^3.4|^4.0|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "twig/twig": "^1.34|^2.4|^3.0"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2019-11-12T14:51:11+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.4-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony mechanism for exploring and dumping PHP variables",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "uid": 411
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v4.4.0-BETA1",
+                "version_normalized": "4.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "eade2890f8b0eeb279b6cf41b50a10007294490f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-eade2890f8b0eeb279b6cf41b50a10007294490f-zip-42cd11.zip",
+                    "reference": "eade2890f8b0eeb279b6cf41b50a10007294490f",
+                    "shasum": "dd1db4027c94dd7cb7fbaa7efb3ed93eda3e5ff2"
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php72": "~1.5"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                    "symfony/console": "<3.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^3.4|^4.0|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "twig/twig": "^1.34|^2.4|^3.0"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2019-11-12T14:51:11+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.4-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony mechanism for exploring and dumping PHP variables",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "uid": 412
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v5.4.0",
+                "version_normalized": "5.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "89ab66eaef230c9cd1992de2e9a1b26652b127b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-89ab66eaef230c9cd1992de2e9a1b26652b127b9-zip-72f47b.zip",
+                    "reference": "89ab66eaef230c9cd1992de2e9a1b26652b127b9",
+                    "shasum": "365ad3d9f89d48db05f6d703486a4065eed058d9"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<5.4.3",
+                    "symfony/console": "<4.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^4.4|^5.0|^6.0",
+                    "symfony/process": "^4.4|^5.0|^6.0",
+                    "symfony/uid": "^5.1|^6.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2021-11-29T15:30:56+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 413
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v5.4.0-BETA1",
+                "version_normalized": "5.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "ae57e565df46334bcc5ca5daca34fb4aef97a688"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-ae57e565df46334bcc5ca5daca34fb4aef97a688-zip-8fdcec.zip",
+                    "reference": "ae57e565df46334bcc5ca5daca34fb4aef97a688",
+                    "shasum": "9b5e45cffca72d3ccdeee020b71953d23b7acdec"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<5.4.3",
+                    "symfony/console": "<4.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^4.4|^5.0|^6.0",
+                    "symfony/process": "^4.4|^5.0|^6.0",
+                    "symfony/uid": "^5.1|^6.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2021-11-04T08:35:51+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 414
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "18d9a1737466b7d88df044b8653a13adaa7648f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-18d9a1737466b7d88df044b8653a13adaa7648f1-zip-8caa58.zip",
+                    "reference": "18d9a1737466b7d88df044b8653a13adaa7648f1",
+                    "shasum": "086d3e2304a742039769e8dcf5a1f8b38c9dbe11"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<5.4.3",
+                    "symfony/console": "<5.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/uid": "^5.4|^6.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2021-11-29T15:32:57+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 415
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v6.0.0-BETA1",
+                "version_normalized": "6.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "dbc533e8e79067f0f5a13a9402eae5d96c15cc92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-dbc533e8e79067f0f5a13a9402eae5d96c15cc92-zip-40d541.zip",
+                    "reference": "dbc533e8e79067f0f5a13a9402eae5d96c15cc92",
+                    "shasum": "7d4bf0158d4bd5e43568aff775c7b9d81b20e7ff"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "phpunit/phpunit": "<5.4.3",
+                    "symfony/console": "<5.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^5.4|^6.0",
+                    "symfony/process": "^5.4|^6.0",
+                    "symfony/uid": "^5.4|^6.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "suggest": {
+                    "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                    "ext-intl": "To show region name in time zone dump",
+                    "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+                },
+                "time": "2021-11-04T17:14:40+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 416
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v6.4.0",
+                "version_normalized": "6.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "c40f7d17e91d8b407582ed51a2bbf83c52c367f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-c40f7d17e91d8b407582ed51a2bbf83c52c367f6-zip-a870e5.zip",
+                    "reference": "c40f7d17e91d8b407582ed51a2bbf83c52c367f6",
+                    "shasum": "b7f8e73fb5f22b891561a1b169a5f090840d7fd9"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/console": "<5.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/error-handler": "^6.3|^7.0",
+                    "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.0|^7.0",
+                    "symfony/uid": "^5.4|^6.0|^7.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "time": "2023-11-09T08:28:32+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 417
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v6.4.0-BETA1",
+                "version_normalized": "6.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "86901b12011e790bdc7bc8fb934f2ca8e22981ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-86901b12011e790bdc7bc8fb934f2ca8e22981ef-zip-84742a.zip",
+                    "reference": "86901b12011e790bdc7bc8fb934f2ca8e22981ef",
+                    "shasum": "be988c3d14ecf6eacf2e63a27d232db396a95b73"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/console": "<5.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/error-handler": "^6.3|^7.0",
+                    "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.0|^7.0",
+                    "symfony/uid": "^5.4|^6.0|^7.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "time": "2023-10-18T09:43:34+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 418
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v6.4.18",
+                "version_normalized": "6.4.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "4ad10cf8b020e77ba665305bb7804389884b4837"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-4ad10cf8b020e77ba665305bb7804389884b4837-zip-352554.zip",
+                    "reference": "4ad10cf8b020e77ba665305bb7804389884b4837",
+                    "shasum": "f0ab477c5849f98621b5f2c4cc3deb097d3c0f61"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/console": "<5.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^5.4|^6.0|^7.0",
+                    "symfony/error-handler": "^6.3|^7.0",
+                    "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.0|^7.0",
+                    "symfony/uid": "^5.4|^6.0|^7.0",
+                    "twig/twig": "^2.13|^3.0.4"
+                },
+                "time": "2025-01-17T11:26:11+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 419
+            },
+            {
+                "name": "symfony/var-dumper",
+                "version": "v7.2.3",
+                "version_normalized": "7.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/var-dumper.git",
+                    "reference": "82b478c69745d8878eb60f9a049a4d584996f73a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/var-dumper/symfony-var-dumper-82b478c69745d8878eb60f9a049a4d584996f73a-zip-b2cba8.zip",
+                    "reference": "82b478c69745d8878eb60f9a049a4d584996f73a",
+                    "shasum": "c125560dceee89f99633fb2aa32fe3c29d121da8"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/polyfill-mbstring": "~1.0"
+                },
+                "conflict": {
+                    "symfony/console": "<6.4"
+                },
+                "require-dev": {
+                    "ext-iconv": "*",
+                    "symfony/console": "^6.4|^7.0",
+                    "symfony/http-kernel": "^6.4|^7.0",
+                    "symfony/process": "^6.4|^7.0",
+                    "symfony/uid": "^6.4|^7.0",
+                    "twig/twig": "^3.12"
+                },
+                "time": "2025-01-17T11:39:41+00:00",
+                "bin": [
+                    "Resources/bin/var-dump-server"
+                ],
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "Resources/functions/dump.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Component\\VarDumper\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "debug",
+                    "dump"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 421
+            }
+        ]
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "packages": {
+        "symfony/polyfill-php81": {
+            "v1.23.0": {
+                "name": "symfony/polyfill-php81",
+                "version": "v1.23.0",
+                "version_normalized": "1.23.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php81.git",
+                    "reference": "e66119f3de95efc359483f810c4c3e6436279436"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php81/symfony-polyfill-php81-e66119f3de95efc359483f810c4c3e6436279436-zip-bd7839.zip",
+                    "reference": "e66119f3de95efc359483f810c4c3e6436279436",
+                    "shasum": "72754d301daefff65cb69790a80a17e56f643bea"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "time": "2021-05-21T13:25:03+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php81\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 362
+            },
+            "v1.31.0": {
+                "name": "symfony/polyfill-php81",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php81.git",
+                    "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php81/symfony-polyfill-php81-4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c-zip-a17e36.zip",
+                    "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+                    "shasum": "18ac20843a82734108a85447f0d3da1502f457f7"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php81\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 363
+            },
+            "1.x-dev": {
+                "name": "symfony/polyfill-php81",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php81.git",
+                    "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php81/symfony-polyfill-php81-4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c-zip-a17e36.zip",
+                    "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+                    "shasum": "18ac20843a82734108a85447f0d3da1502f457f7"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php81\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 364
+            }
+        }
+    }
+}

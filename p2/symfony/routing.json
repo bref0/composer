@@ -1,0 +1,264 @@
+{
+    "packages": {
+        "symfony/routing": [
+            {
+                "name": "symfony/routing",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/routing.git",
+                    "reference": "8d9fd70b701a9a9c4c52ad99040e96b49d084a06"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/routing/symfony-routing-8d9fd70b701a9a9c4c52ad99040e96b49d084a06-zip-e4fd9d.zip",
+                    "reference": "8d9fd70b701a9a9c4c52ad99040e96b49d084a06",
+                    "shasum": "b5ec7c239a8058c6c947cbecf3c9fedd0c54135c"
+                },
+                "require": {
+                    "php": ">=8.0.2"
+                },
+                "conflict": {
+                    "doctrine/annotations": "<1.12",
+                    "symfony/config": "<5.4",
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/yaml": "<5.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "^1.12",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/expression-language": "^5.4|^6.0",
+                    "symfony/http-foundation": "^5.4|^6.0",
+                    "symfony/yaml": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "symfony/config": "For using the all-in-one router or any loader",
+                    "symfony/expression-language": "For using expression matching",
+                    "symfony/http-foundation": "For using a Symfony Request object",
+                    "symfony/yaml": "For using the YAML loader"
+                },
+                "time": "2021-11-04T18:17:10+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Routing\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Maps an HTTP request to a set of configuration variables",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "router",
+                    "routing",
+                    "uri",
+                    "url"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 375
+            },
+            {
+                "name": "symfony/routing",
+                "version": "v6.0.0-BETA1",
+                "version_normalized": "6.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/routing.git",
+                    "reference": "8d9fd70b701a9a9c4c52ad99040e96b49d084a06"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/routing/symfony-routing-8d9fd70b701a9a9c4c52ad99040e96b49d084a06-zip-e4fd9d.zip",
+                    "reference": "8d9fd70b701a9a9c4c52ad99040e96b49d084a06",
+                    "shasum": "b5ec7c239a8058c6c947cbecf3c9fedd0c54135c"
+                },
+                "require": {
+                    "php": ">=8.0.2"
+                },
+                "conflict": {
+                    "doctrine/annotations": "<1.12",
+                    "symfony/config": "<5.4",
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/yaml": "<5.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "^1.12",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/expression-language": "^5.4|^6.0",
+                    "symfony/http-foundation": "^5.4|^6.0",
+                    "symfony/yaml": "^5.4|^6.0"
+                },
+                "suggest": {
+                    "symfony/config": "For using the all-in-one router or any loader",
+                    "symfony/expression-language": "For using expression matching",
+                    "symfony/http-foundation": "For using a Symfony Request object",
+                    "symfony/yaml": "For using the YAML loader"
+                },
+                "time": "2021-11-04T18:17:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Routing\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Maps an HTTP request to a set of configuration variables",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "router",
+                    "routing",
+                    "uri",
+                    "url"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 376
+            },
+            {
+                "name": "symfony/routing",
+                "version": "v6.4.18",
+                "version_normalized": "6.4.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/routing.git",
+                    "reference": "e9bfc94953019089acdfb9be51c1b9142c4afa68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/routing/symfony-routing-e9bfc94953019089acdfb9be51c1b9142c4afa68-zip-39a600.zip",
+                    "reference": "e9bfc94953019089acdfb9be51c1b9142c4afa68",
+                    "shasum": "afef0221ac1f6f70f92f18755050964cbaee1ffb"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "doctrine/annotations": "<1.12",
+                    "symfony/config": "<6.2",
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/yaml": "<5.4"
+                },
+                "require-dev": {
+                    "doctrine/annotations": "^1.12|^2",
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^6.2|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/expression-language": "^5.4|^6.0|^7.0",
+                    "symfony/http-foundation": "^5.4|^6.0|^7.0",
+                    "symfony/yaml": "^5.4|^6.0|^7.0"
+                },
+                "time": "2025-01-09T08:51:02+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Routing\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Maps an HTTP request to a set of configuration variables",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "router",
+                    "routing",
+                    "uri",
+                    "url"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 377
+            }
+        ]
+    }
+}

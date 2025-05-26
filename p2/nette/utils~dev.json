@@ -1,0 +1,176 @@
+{
+    "packages": {
+        "nette/utils": [
+            {
+                "name": "nette/utils",
+                "version": "v3.2.x-dev",
+                "version_normalized": "3.2.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nette/utils.git",
+                    "reference": "b433959cb129b9d4f15d26b9138c7d2b62a3d757"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nette/utils/nette-utils-b433959cb129b9d4f15d26b9138c7d2b62a3d757-zip-3359fc.zip",
+                    "reference": "b433959cb129b9d4f15d26b9138c7d2b62a3d757",
+                    "shasum": "086e8c8c436c5e17b390a4877b3b815695b7c9ce"
+                },
+                "require": {
+                    "php": ">=7.2 <8.4"
+                },
+                "conflict": {
+                    "nette/di": "<3.0.6"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "dev-master",
+                    "nette/tester": "~2.0",
+                    "phpstan/phpstan": "^1.0",
+                    "tracy/tracy": "^2.3"
+                },
+                "suggest": {
+                    "ext-gd": "to use Image",
+                    "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
+                    "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
+                    "ext-json": "to use Nette\\Utils\\Json",
+                    "ext-mbstring": "to use Strings::lower() etc...",
+                    "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()",
+                    "ext-xml": "to use Strings::length() etc. when mbstring is not available"
+                },
+                "time": "2024-01-17T14:37:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.2-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause",
+                    "GPL-2.0-only",
+                    "GPL-3.0-only"
+                ],
+                "authors": [
+                    {
+                        "name": "David Grudl",
+                        "homepage": "https://davidgrudl.com"
+                    },
+                    {
+                        "name": "Nette Community",
+                        "homepage": "https://nette.org/contributors"
+                    }
+                ],
+                "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+                "homepage": "https://nette.org",
+                "keywords": [
+                    "array",
+                    "core",
+                    "datetime",
+                    "images",
+                    "json",
+                    "nette",
+                    "paginator",
+                    "password",
+                    "slugify",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utility",
+                    "validation"
+                ],
+                "uid": 197
+            },
+            {
+                "name": "nette/utils",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nette/utils.git",
+                    "reference": "be534713c227aeef57ce1883fc17bc9f9e29eca2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nette/utils/nette-utils-be534713c227aeef57ce1883fc17bc9f9e29eca2-zip-139d7b.zip",
+                    "reference": "be534713c227aeef57ce1883fc17bc9f9e29eca2",
+                    "shasum": "9b9905813bc989f2dc87d8c091946e323351ace0"
+                },
+                "require": {
+                    "php": "8.0 - 8.4"
+                },
+                "conflict": {
+                    "nette/finder": "<3",
+                    "nette/schema": "<1.2.2"
+                },
+                "require-dev": {
+                    "jetbrains/phpstorm-attributes": "dev-master",
+                    "nette/tester": "^2.5",
+                    "phpstan/phpstan": "^1.0",
+                    "tracy/tracy": "^2.9"
+                },
+                "suggest": {
+                    "ext-gd": "to use Image",
+                    "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
+                    "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
+                    "ext-json": "to use Nette\\Utils\\Json",
+                    "ext-mbstring": "to use Strings::lower() etc...",
+                    "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()"
+                },
+                "time": "2025-02-03T00:58:56+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "BSD-3-Clause",
+                    "GPL-2.0-only",
+                    "GPL-3.0-only"
+                ],
+                "authors": [
+                    {
+                        "name": "David Grudl",
+                        "homepage": "https://davidgrudl.com"
+                    },
+                    {
+                        "name": "Nette Community",
+                        "homepage": "https://nette.org/contributors"
+                    }
+                ],
+                "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+                "homepage": "https://nette.org",
+                "keywords": [
+                    "array",
+                    "core",
+                    "datetime",
+                    "images",
+                    "json",
+                    "nette",
+                    "paginator",
+                    "password",
+                    "slugify",
+                    "string",
+                    "unicode",
+                    "utf-8",
+                    "utility",
+                    "validation"
+                ],
+                "uid": 200
+            }
+        ]
+    }
+}

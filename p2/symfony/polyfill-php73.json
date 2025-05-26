@@ -1,0 +1,140 @@
+{
+    "packages": {
+        "symfony/polyfill-php73": [
+            {
+                "name": "symfony/polyfill-php73",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php73.git",
+                    "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php73/symfony-polyfill-php73-0f68c03565dcaaf25a890667542e8bd75fe7e5bb-zip-6dbf35.zip",
+                    "reference": "0f68c03565dcaaf25a890667542e8bd75fe7e5bb",
+                    "shasum": "808f0c27d56de64d428f0fd53ca2da7c51c1a626"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php73\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 351
+            },
+            {
+                "name": "symfony/polyfill-php73",
+                "version": "v1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php73.git",
+                    "reference": "9841f6fc047725a8286ea986018355bbc9200383"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php73/symfony-polyfill-php73-9841f6fc047725a8286ea986018355bbc9200383-zip-bdd326.zip",
+                    "reference": "9841f6fc047725a8286ea986018355bbc9200383",
+                    "shasum": "88d5fd48d18351eb8e6e38e00e67e4ff01c72bf9"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2018-04-26T06:22:38+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.8-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php73\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 352
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "psr/event-dispatcher": [
+            {
+                "name": "psr/event-dispatcher",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/event-dispatcher.git",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/psr/event-dispatcher/psr-event-dispatcher-dbefd12671e8a14ec7f180cab83036ed26714bb0-zip-673778.zip",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                    "shasum": "3fbc3209bde8053baeeb0ff18794d046658b4693"
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "time": "2019-01-08T18:20:26+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\EventDispatcher\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Standard interfaces for event handling.",
+                "keywords": [
+                    "events",
+                    "psr",
+                    "psr-14"
+                ],
+                "uid": 216
+            }
+        ]
+    }
+}

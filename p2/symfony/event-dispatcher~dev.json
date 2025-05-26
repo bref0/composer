@@ -1,0 +1,164 @@
+{
+    "packages": {
+        "symfony/event-dispatcher": [
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher/symfony-event-dispatcher-0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e-zip-8306d2.zip",
+                    "reference": "0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e",
+                    "shasum": "0a4f235b03984282b93f4a2e1405f5c6fa631ad2"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/event-dispatcher-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<5.4",
+                    "symfony/service-contracts": "<2.5"
+                },
+                "provide": {
+                    "psr/event-dispatcher-implementation": "1.0",
+                    "symfony/event-dispatcher-implementation": "2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^5.4|^6.0|^7.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/error-handler": "^5.4|^6.0|^7.0",
+                    "symfony/expression-language": "^5.4|^6.0|^7.0",
+                    "symfony/http-foundation": "^5.4|^6.0|^7.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/stopwatch": "^5.4|^6.0|^7.0"
+                },
+                "time": "2024-09-25T14:18:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\EventDispatcher\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 272
+            },
+            {
+                "name": "symfony/event-dispatcher",
+                "version": "7.3.x-dev",
+                "version_normalized": "7.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher.git",
+                    "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/event-dispatcher/symfony-event-dispatcher-910c5db85a5356d0fea57680defec4e99eb9c8c1-zip-803516.zip",
+                    "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1",
+                    "shasum": "b20f9b5803fdc2086980fc07c5909870af6e8cbc"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/event-dispatcher-contracts": "^2.5|^3"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<6.4",
+                    "symfony/service-contracts": "<2.5"
+                },
+                "provide": {
+                    "psr/event-dispatcher-implementation": "1.0",
+                    "symfony/event-dispatcher-implementation": "2.0|3.0"
+                },
+                "require-dev": {
+                    "psr/log": "^1|^2|^3",
+                    "symfony/config": "^6.4|^7.0",
+                    "symfony/dependency-injection": "^6.4|^7.0",
+                    "symfony/error-handler": "^6.4|^7.0",
+                    "symfony/expression-language": "^6.4|^7.0",
+                    "symfony/http-foundation": "^6.4|^7.0",
+                    "symfony/service-contracts": "^2.5|^3",
+                    "symfony/stopwatch": "^6.4|^7.0"
+                },
+                "time": "2024-09-25T14:21:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\EventDispatcher\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 274
+            }
+        ]
+    }
+}

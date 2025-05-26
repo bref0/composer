@@ -1,0 +1,199 @@
+{
+    "packages": {
+        "symfony/css-selector": [
+            {
+                "name": "symfony/css-selector",
+                "version": "5.4.x-dev",
+                "version_normalized": "5.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/css-selector.git",
+                    "reference": "4f7f3c35fba88146b56d0025d20ace3f3901f097"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/css-selector/symfony-css-selector-4f7f3c35fba88146b56d0025d20ace3f3901f097-zip-8b0ca4.zip",
+                    "reference": "4f7f3c35fba88146b56d0025d20ace3f3901f097",
+                    "shasum": "cb3d883383c7f8e72b341d7cb464d867c44cf5ed"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "time": "2024-09-25T14:11:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\CssSelector\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Jean-François Simon",
+                        "email": "jeanfrancois.simon@sensiolabs.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Converts CSS selectors to XPath expressions",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 248
+            },
+            {
+                "name": "symfony/css-selector",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/css-selector.git",
+                    "reference": "cb23e97813c5837a041b73a6d63a9ddff0778f5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/css-selector/symfony-css-selector-cb23e97813c5837a041b73a6d63a9ddff0778f5e-zip-46dc2f.zip",
+                    "reference": "cb23e97813c5837a041b73a6d63a9ddff0778f5e",
+                    "shasum": "aef32d8ceb1ad3a4a5c9b5b0379f57cef827c8f9"
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "time": "2024-09-25T14:18:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\CssSelector\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Jean-François Simon",
+                        "email": "jeanfrancois.simon@sensiolabs.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Converts CSS selectors to XPath expressions",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 250
+            },
+            {
+                "name": "symfony/css-selector",
+                "version": "7.3.x-dev",
+                "version_normalized": "7.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/css-selector.git",
+                    "reference": "601a5ce9aaad7bf10797e3663faefce9e26c24e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/css-selector/symfony-css-selector-601a5ce9aaad7bf10797e3663faefce9e26c24e2-zip-5b2697.zip",
+                    "reference": "601a5ce9aaad7bf10797e3663faefce9e26c24e2",
+                    "shasum": "81242cbc8fb866d8bcc54e36fe1e2f6c87a06a69"
+                },
+                "require": {
+                    "php": ">=8.2"
+                },
+                "time": "2024-09-25T14:21:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\CssSelector\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Jean-François Simon",
+                        "email": "jeanfrancois.simon@sensiolabs.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Converts CSS selectors to XPath expressions",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 252
+            }
+        ]
+    }
+}

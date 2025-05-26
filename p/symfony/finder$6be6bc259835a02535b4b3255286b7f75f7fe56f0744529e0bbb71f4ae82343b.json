@@ -1,0 +1,255 @@
+{
+    "packages": {
+        "symfony/finder": {
+            "v6.0.0": {
+                "name": "symfony/finder",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "07debda41a4d32d33e59e6ab302af1701e15f173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/finder/symfony-finder-07debda41a4d32d33e59e6ab302af1701e15f173-zip-490900.zip",
+                    "reference": "07debda41a4d32d33e59e6ab302af1701e15f173",
+                    "shasum": "1bd23056e510b47985bb19b73819745e01cdf229"
+                },
+                "require": {
+                    "php": ">=8.0.2"
+                },
+                "time": "2021-11-28T15:34:37+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Finds files and directories via an intuitive fluent interface",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 281
+            },
+            "v6.0.0-BETA1": {
+                "name": "symfony/finder",
+                "version": "v6.0.0-BETA1",
+                "version_normalized": "6.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "3ec4621949b9ad48d936c5d5f44e9204294d50a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/finder/symfony-finder-3ec4621949b9ad48d936c5d5f44e9204294d50a3-zip-ea7d0b.zip",
+                    "reference": "3ec4621949b9ad48d936c5d5f44e9204294d50a3",
+                    "shasum": "c5ad5e7b9f0084b28608c1224628f5a6227a1048"
+                },
+                "require": {
+                    "php": ">=8.0.2"
+                },
+                "time": "2021-11-04T17:14:40+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Finds files and directories via an intuitive fluent interface",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 282
+            },
+            "v6.4.17": {
+                "name": "symfony/finder",
+                "version": "v6.4.17",
+                "version_normalized": "6.4.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/finder/symfony-finder-1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7-zip-411ba5.zip",
+                    "reference": "1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7",
+                    "shasum": "4f198d41f8505594525b0d8ab99dddb37b5a6d24"
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "symfony/filesystem": "^6.0|^7.0"
+                },
+                "time": "2024-12-29T13:51:37+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Finds files and directories via an intuitive fluent interface",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 283
+            },
+            "6.4.x-dev": {
+                "name": "symfony/finder",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/finder/symfony-finder-1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7-zip-411ba5.zip",
+                    "reference": "1d0e8266248c5d9ab6a87e3789e6dc482af3c9c7",
+                    "shasum": "4f198d41f8505594525b0d8ab99dddb37b5a6d24"
+                },
+                "require": {
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "symfony/filesystem": "^6.0|^7.0"
+                },
+                "time": "2024-12-29T13:51:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Finds files and directories via an intuitive fluent interface",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 284
+            }
+        }
+    }
+}

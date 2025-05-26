@@ -1,0 +1,221 @@
+{
+    "packages": {
+        "phpoption/phpoption": {
+            "1.8.0": {
+                "name": "phpoption/phpoption",
+                "version": "1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/schmittjoh/php-option.git",
+                    "reference": "5455cb38aed4523f99977c4a12ef19da4bfe2a28"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/phpoption/phpoption/phpoption-phpoption-5455cb38aed4523f99977c4a12ef19da4bfe2a28-zip-a2c2e1.zip",
+                    "reference": "5455cb38aed4523f99977c4a12ef19da4bfe2a28",
+                    "shasum": "7de434e23881ede8ed05cc908e45cb4093342ec4"
+                },
+                "require": {
+                    "php": "^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "bamarni/composer-bin-plugin": "^1.4.1",
+                    "phpunit/phpunit": "^6.5.14 || ^7.0.20 || ^8.5.19 || ^9.5.8"
+                },
+                "time": "2021-08-28T21:27:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.8-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "PhpOption\\": "src/PhpOption/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Johannes M. Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Graham Campbell",
+                        "email": "hello@gjcampbell.co.uk"
+                    }
+                ],
+                "description": "Option Type for PHP",
+                "keywords": [
+                    "language",
+                    "option",
+                    "php",
+                    "type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 206
+            },
+            "1.9.3": {
+                "name": "phpoption/phpoption",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/schmittjoh/php-option.git",
+                    "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/phpoption/phpoption/phpoption-phpoption-e3fac8b24f56113f7cb96af14958c0dd16330f54-zip-45f6a6.zip",
+                    "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+                    "shasum": "57bb7db548d8a92cbd78291ce46fc68990a071a3"
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0"
+                },
+                "require-dev": {
+                    "bamarni/composer-bin-plugin": "^1.8.2",
+                    "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+                },
+                "time": "2024-07-20T21:41:07+00:00",
+                "type": "library",
+                "extra": {
+                    "bamarni-bin": {
+                        "bin-links": true,
+                        "forward-command": false
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.9-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PhpOption\\": "src/PhpOption/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Johannes M. Schmitt",
+                        "email": "schmittjoh@gmail.com",
+                        "homepage": "https://github.com/schmittjoh"
+                    },
+                    {
+                        "name": "Graham Campbell",
+                        "email": "hello@gjcampbell.co.uk",
+                        "homepage": "https://github.com/GrahamCampbell"
+                    }
+                ],
+                "description": "Option Type for PHP",
+                "keywords": [
+                    "language",
+                    "option",
+                    "php",
+                    "type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 207
+            },
+            "dev-master": {
+                "name": "phpoption/phpoption",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/schmittjoh/php-option.git",
+                    "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/phpoption/phpoption/phpoption-phpoption-e3fac8b24f56113f7cb96af14958c0dd16330f54-zip-45f6a6.zip",
+                    "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+                    "shasum": "57bb7db548d8a92cbd78291ce46fc68990a071a3"
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0"
+                },
+                "require-dev": {
+                    "bamarni/composer-bin-plugin": "^1.8.2",
+                    "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+                },
+                "time": "2024-07-20T21:41:07+00:00",
+                "type": "library",
+                "extra": {
+                    "bamarni-bin": {
+                        "bin-links": true,
+                        "forward-command": false
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.9-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "PhpOption\\": "src/PhpOption/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Johannes M. Schmitt",
+                        "email": "schmittjoh@gmail.com",
+                        "homepage": "https://github.com/schmittjoh"
+                    },
+                    {
+                        "name": "Graham Campbell",
+                        "email": "hello@gjcampbell.co.uk",
+                        "homepage": "https://github.com/GrahamCampbell"
+                    }
+                ],
+                "description": "Option Type for PHP",
+                "keywords": [
+                    "language",
+                    "option",
+                    "php",
+                    "type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/GrahamCampbell",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 208
+            }
+        }
+    }
+}

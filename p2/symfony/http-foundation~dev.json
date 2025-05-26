@@ -1,0 +1,161 @@
+{
+    "packages": {
+        "symfony/http-foundation": [
+            {
+                "name": "symfony/http-foundation",
+                "version": "6.4.x-dev",
+                "version_normalized": "6.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/http-foundation.git",
+                    "reference": "d0492d6217e5ab48f51fca76f64cf8e78919d0db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/http-foundation/symfony-http-foundation-d0492d6217e5ab48f51fca76f64cf8e78919d0db-zip-372616.zip",
+                    "reference": "d0492d6217e5ab48f51fca76f64cf8e78919d0db",
+                    "shasum": "8297595018d61b047afd8702d3df8ffc0dd3047f"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-mbstring": "~1.1",
+                    "symfony/polyfill-php83": "^1.27"
+                },
+                "conflict": {
+                    "symfony/cache": "<6.4.12|>=7.0,<7.1.5"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^2.13.1|^3|^4",
+                    "predis/predis": "^1.1|^2.0",
+                    "symfony/cache": "^6.4.12|^7.1.5",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/expression-language": "^5.4|^6.0|^7.0",
+                    "symfony/http-kernel": "^5.4.12|^6.0.12|^6.1.4|^7.0",
+                    "symfony/mime": "^5.4|^6.0|^7.0",
+                    "symfony/rate-limiter": "^5.4|^6.0|^7.0"
+                },
+                "time": "2025-01-09T15:48:56+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpFoundation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Defines an object-oriented layer for the HTTP specification",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 297
+            },
+            {
+                "name": "symfony/http-foundation",
+                "version": "7.3.x-dev",
+                "version_normalized": "7.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/http-foundation.git",
+                    "reference": "b4f50ff1a0e9d4a7fab01b769818a5cee4f0a9d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/http-foundation/symfony-http-foundation-b4f50ff1a0e9d4a7fab01b769818a5cee4f0a9d6-zip-4a3758.zip",
+                    "reference": "b4f50ff1a0e9d4a7fab01b769818a5cee4f0a9d6",
+                    "shasum": "08603d7628e0a0556dddbae990bd8e89c32ecd1d"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/deprecation-contracts": "^2.5|^3.0",
+                    "symfony/polyfill-mbstring": "~1.1",
+                    "symfony/polyfill-php83": "^1.27"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<3.6",
+                    "symfony/cache": "<6.4.12|>=7.0,<7.1.5"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^3.6|^4",
+                    "predis/predis": "^1.1|^2.0",
+                    "symfony/cache": "^6.4.12|^7.1.5",
+                    "symfony/dependency-injection": "^6.4|^7.0",
+                    "symfony/expression-language": "^6.4|^7.0",
+                    "symfony/http-kernel": "^6.4|^7.0",
+                    "symfony/mime": "^6.4|^7.0",
+                    "symfony/rate-limiter": "^6.4|^7.0"
+                },
+                "time": "2025-01-17T11:48:14+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpFoundation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Defines an object-oriented layer for the HTTP specification",
+                "homepage": "https://symfony.com",
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 299
+            }
+        ]
+    }
+}

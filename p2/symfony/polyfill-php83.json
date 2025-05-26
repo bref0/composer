@@ -1,0 +1,159 @@
+{
+    "packages": {
+        "symfony/polyfill-php83": [
+            {
+                "name": "symfony/polyfill-php83",
+                "version": "v1.27.0",
+                "version_normalized": "1.27.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php83.git",
+                    "reference": "508c652ba3ccf69f8c97f251534f229791b52a57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php83/symfony-polyfill-php83-508c652ba3ccf69f8c97f251534f229791b52a57-zip-991047.zip",
+                    "reference": "508c652ba3ccf69f8c97f251534f229791b52a57",
+                    "shasum": "c2413e2d81fb8e871af248aa085d18237848725c"
+                },
+                "require": {
+                    "php": ">=7.1",
+                    "symfony/polyfill-php80": "^1.14"
+                },
+                "time": "2022-11-03T14:55:06+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.27-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php83\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 365
+            },
+            {
+                "name": "symfony/polyfill-php83",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php83.git",
+                    "reference": "2fb86d65e2d424369ad2905e83b236a8805ba491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-php83/symfony-polyfill-php83-2fb86d65e2d424369ad2905e83b236a8805ba491-zip-d5e4e8.zip",
+                    "reference": "2fb86d65e2d424369ad2905e83b236a8805ba491",
+                    "shasum": "f9a45e06bb1f1f4888cad8585d084066bf44597d"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php83\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 366
+            }
+        ]
+    }
+}

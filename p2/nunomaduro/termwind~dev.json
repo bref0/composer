@@ -1,0 +1,89 @@
+{
+    "packages": {
+        "nunomaduro/termwind": [
+            {
+                "name": "nunomaduro/termwind",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nunomaduro/termwind.git",
+                    "reference": "5369ef84d8142c1d87e4ec278711d4ece3cbf301"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/nunomaduro/termwind/nunomaduro-termwind-5369ef84d8142c1d87e4ec278711d4ece3cbf301-zip-4a6017.zip",
+                    "reference": "5369ef84d8142c1d87e4ec278711d4ece3cbf301",
+                    "shasum": "8029882dbd22f8972330a4a4e7a0a89d384e7a52"
+                },
+                "require": {
+                    "ext-mbstring": "*",
+                    "php": "^8.1",
+                    "symfony/console": "^6.4.15"
+                },
+                "require-dev": {
+                    "illuminate/console": "^10.48.24",
+                    "illuminate/support": "^10.48.24",
+                    "laravel/pint": "^1.18.2",
+                    "pestphp/pest": "^2.36.0",
+                    "pestphp/pest-plugin-mock": "2.0.0",
+                    "phpstan/phpstan": "^1.12.11",
+                    "phpstan/phpstan-strict-rules": "^1.6.1",
+                    "symfony/var-dumper": "^6.4.15",
+                    "thecodingmachine/phpstan-strict-rules": "^1.0.0"
+                },
+                "time": "2024-11-21T10:36:35+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Termwind\\Laravel\\TermwindServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "src/Functions.php"
+                    ],
+                    "psr-4": {
+                        "Termwind\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nuno Maduro",
+                        "email": "enunomaduro@gmail.com"
+                    }
+                ],
+                "description": "Its like Tailwind CSS, but for the console.",
+                "keywords": [
+                    "cli",
+                    "console",
+                    "css",
+                    "package",
+                    "php",
+                    "style"
+                ],
+                "funding": [
+                    {
+                        "url": "https://www.paypal.com/paypalme/enunomaduro",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/nunomaduro",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://github.com/xiCO2k",
+                        "type": "github"
+                    }
+                ],
+                "uid": 203
+            }
+        ]
+    }
+}

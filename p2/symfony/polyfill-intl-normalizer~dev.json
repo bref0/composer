@@ -1,0 +1,86 @@
+{
+    "packages": {
+        "symfony/polyfill-intl-normalizer": [
+            {
+                "name": "symfony/polyfill-intl-normalizer",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                    "reference": "3833d7255cc303546435cb650316bff708a1c75c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-intl-normalizer/symfony-polyfill-intl-normalizer-3833d7255cc303546435cb650316bff708a1c75c-zip-154d4f.zip",
+                    "reference": "3833d7255cc303546435cb650316bff708a1c75c",
+                    "shasum": "fc05194df9536f20659d260dfb9d1f769ca4ca92"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "suggest": {
+                    "ext-intl": "For best performance"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                    },
+                    "classmap": [
+                        "Resources/stubs"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for intl's Normalizer class and related functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "intl",
+                    "normalizer",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 338
+            }
+        ]
+    }
+}

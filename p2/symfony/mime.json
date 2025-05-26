@@ -1,0 +1,877 @@
+{
+    "packages": {
+        "symfony/mime": [
+            {
+                "name": "symfony/mime",
+                "version": "v4.3.0",
+                "version_normalized": "4.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "0b166aee243364cd9de05755d2e9651876090abb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-0b166aee243364cd9de05755d2e9651876090abb-zip-a6201b.zip",
+                    "reference": "0b166aee243364cd9de05755d2e9651876090abb",
+                    "shasum": "eb4798086d59b2088497055193de9a563c0a691f"
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.0",
+                    "symfony/dependency-injection": "~3.4|^4.1"
+                },
+                "time": "2019-05-22T13:16:28+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.3-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A library to manipulate MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "uid": 308
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v4.3.0-BETA1",
+                "version_normalized": "4.3.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "32cf67fe03e308904f36609c813b78bc34ebaccb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-32cf67fe03e308904f36609c813b78bc34ebaccb-zip-982add.zip",
+                    "reference": "32cf67fe03e308904f36609c813b78bc34ebaccb",
+                    "shasum": "38f00fe11fd986d43c9f9c46423ec3217fbe16bc"
+                },
+                "require": {
+                    "php": "^7.1.3",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.0",
+                    "symfony/dependency-injection": "~3.4|^4.1"
+                },
+                "time": "2019-04-17T15:26:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.3-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A library to manipulate MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "uid": 309
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v5.4.0",
+                "version_normalized": "5.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "d4365000217b67c01acff407573906ff91bcfb34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-d4365000217b67c01acff407573906ff91bcfb34-zip-c0b54c.zip",
+                    "reference": "d4365000217b67c01acff407573906ff91bcfb34",
+                    "shasum": "1b9d50e383265c26d1ef290c231e471f7cdde4ba"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1|^3",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<4.4"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                    "symfony/property-access": "^4.4|^5.1|^6.0",
+                    "symfony/property-info": "^4.4|^5.1|^6.0",
+                    "symfony/serializer": "^5.2|^6.0"
+                },
+                "time": "2021-11-23T10:19:22+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 310
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v5.4.0-BETA1",
+                "version_normalized": "5.4.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "d75d8cd9aa5ad257ed1b958f042c7a2d7cf505d5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-d75d8cd9aa5ad257ed1b958f042c7a2d7cf505d5-zip-67acf4.zip",
+                    "reference": "d75d8cd9aa5ad257ed1b958f042c7a2d7cf505d5",
+                    "shasum": "ff1f2852b343c62312b902368c6f0a56699cc425"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<4.4"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                    "symfony/property-access": "^4.4|^5.1|^6.0",
+                    "symfony/property-info": "^4.4|^5.1|^6.0",
+                    "symfony/serializer": "^5.2|^6.0"
+                },
+                "time": "2021-11-04T16:48:04+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 311
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v5.4.45",
+                "version_normalized": "5.4.45.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "8c1b9b3e5b52981551fc6044539af1d974e39064"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-8c1b9b3e5b52981551fc6044539af1d974e39064-zip-7a7e9f.zip",
+                    "reference": "8c1b9b3e5b52981551fc6044539af1d974e39064",
+                    "shasum": "1488b15033aa1ce02e3e97ad6f918e4978c9ad5b"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1|^3",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0",
+                    "symfony/polyfill-php80": "^1.16"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<4.4",
+                    "symfony/serializer": "<5.4.35|>=6,<6.3.12|>=6.4,<6.4.3"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1|^4",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                    "symfony/process": "^5.4|^6.4",
+                    "symfony/property-access": "^4.4|^5.1|^6.0",
+                    "symfony/property-info": "^4.4|^5.1|^6.0",
+                    "symfony/serializer": "^5.4.35|~6.3.12|^6.4.3"
+                },
+                "time": "2024-10-23T20:18:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 312
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v6.0.0",
+                "version_normalized": "6.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "e83af78cd32fb01e5ae7d1cb202fef3aef1e840a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-e83af78cd32fb01e5ae7d1cb202fef3aef1e840a-zip-170435.zip",
+                    "reference": "e83af78cd32fb01e5ae7d1cb202fef3aef1e840a",
+                    "shasum": "be7767881ba68876d9518996b359497b7556109b"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<5.4"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/property-access": "^5.4|^6.0",
+                    "symfony/property-info": "^5.4|^6.0",
+                    "symfony/serializer": "^5.4|^6.0"
+                },
+                "time": "2021-11-20T17:00:10+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 314
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v6.0.0-BETA1",
+                "version_normalized": "6.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "f600177450965f25bd95ec099f26bcb17a2a8a14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-f600177450965f25bd95ec099f26bcb17a2a8a14-zip-a54c5a.zip",
+                    "reference": "f600177450965f25bd95ec099f26bcb17a2a8a14",
+                    "shasum": "559b348595433fee70600d12cc3103c9e4c7300f"
+                },
+                "require": {
+                    "php": ">=8.0.2",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<5.4"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/property-access": "^5.4|^6.0",
+                    "symfony/property-info": "^5.4|^6.0",
+                    "symfony/serializer": "^5.4|^6.0"
+                },
+                "time": "2021-11-04T17:14:40+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 315
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v6.2.0",
+                "version_normalized": "6.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "1e8005a7cbd79fb824ad81308ef2a76592a08bc0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-1e8005a7cbd79fb824ad81308ef2a76592a08bc0-zip-aababe.zip",
+                    "reference": "1e8005a7cbd79fb824ad81308ef2a76592a08bc0",
+                    "shasum": "0cba4e22f0414166826031b0dd3e2a1272eb8ab4"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<5.4",
+                    "symfony/serializer": "<6.2"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "league/html-to-markdown": "^5.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/property-access": "^5.4|^6.0",
+                    "symfony/property-info": "^5.4|^6.0",
+                    "symfony/serializer": "^6.2"
+                },
+                "time": "2022-11-28T12:28:19+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 316
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v6.2.0-BETA1",
+                "version_normalized": "6.2.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "877a042802953e4be7d2b9e171ffde791f3e2ce8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-877a042802953e4be7d2b9e171ffde791f3e2ce8-zip-403721.zip",
+                    "reference": "877a042802953e4be7d2b9e171ffde791f3e2ce8",
+                    "shasum": "d68109760136cc87c0a161094c41ebd37015dc57"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<5.4",
+                    "symfony/serializer": "<6.2"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1",
+                    "league/html-to-markdown": "^5.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^5.4|^6.0",
+                    "symfony/property-access": "^5.4|^6.0",
+                    "symfony/property-info": "^5.4|^6.0",
+                    "symfony/serializer": "^6.2"
+                },
+                "time": "2022-10-19T08:20:14+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 317
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v6.4.18",
+                "version_normalized": "6.4.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "917d77981eb1ea963608d5cda4d9c0cf72eaa68e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-917d77981eb1ea963608d5cda4d9c0cf72eaa68e-zip-42a4f0.zip",
+                    "reference": "917d77981eb1ea963608d5cda4d9c0cf72eaa68e",
+                    "shasum": "529845f156f8da08510c14fcb04521364f1a24d7"
+                },
+                "require": {
+                    "php": ">=8.1",
+                    "symfony/deprecation-contracts": "^2.5|^3",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<5.4",
+                    "symfony/serializer": "<6.4.3|>7.0,<7.0.3"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1|^4",
+                    "league/html-to-markdown": "^5.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                    "symfony/process": "^5.4|^6.4|^7.0",
+                    "symfony/property-access": "^5.4|^6.0|^7.0",
+                    "symfony/property-info": "^5.4|^6.0|^7.0",
+                    "symfony/serializer": "^6.4.3|^7.0.3"
+                },
+                "time": "2025-01-23T13:10:52+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 318
+            },
+            {
+                "name": "symfony/mime",
+                "version": "v7.2.3",
+                "version_normalized": "7.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/mime.git",
+                    "reference": "2fc3b4bd67e4747e45195bc4c98bea4628476204"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/mime/symfony-mime-2fc3b4bd67e4747e45195bc4c98bea4628476204-zip-e47590.zip",
+                    "reference": "2fc3b4bd67e4747e45195bc4c98bea4628476204",
+                    "shasum": "4f16a381214d749046787e8ad9f724391e96dd43"
+                },
+                "require": {
+                    "php": ">=8.2",
+                    "symfony/polyfill-intl-idn": "^1.10",
+                    "symfony/polyfill-mbstring": "^1.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "~3.0.0",
+                    "phpdocumentor/reflection-docblock": "<3.2.2",
+                    "phpdocumentor/type-resolver": "<1.4.0",
+                    "symfony/mailer": "<6.4",
+                    "symfony/serializer": "<6.4.3|>7.0,<7.0.3"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.10|^3.1|^4",
+                    "league/html-to-markdown": "^5.0",
+                    "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                    "symfony/dependency-injection": "^6.4|^7.0",
+                    "symfony/process": "^6.4|^7.0",
+                    "symfony/property-access": "^6.4|^7.0",
+                    "symfony/property-info": "^6.4|^7.0",
+                    "symfony/serializer": "^6.4.3|^7.0.3"
+                },
+                "time": "2025-01-27T11:08:17+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Mime\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Allows manipulating MIME messages",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "mime",
+                    "mime-type"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 320
+            }
+        ]
+    }
+}

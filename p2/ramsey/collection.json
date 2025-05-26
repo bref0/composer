@@ -1,0 +1,318 @@
+{
+    "packages": {
+        "ramsey/collection": [
+            {
+                "name": "ramsey/collection",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ramsey/collection.git",
+                    "reference": "c7a212fb072674acd77f7f62041182b545f91bc5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ramsey/collection/ramsey-collection-c7a212fb072674acd77f7f62041182b545f91bc5-zip-0c3123.zip",
+                    "reference": "c7a212fb072674acd77f7f62041182b545f91bc5",
+                    "shasum": "a2dae2ae32fc147caa243c784706a41de9c4776f"
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "fzaninotto/faker": "^1.5",
+                    "jakub-onderka/php-parallel-lint": "^1.0",
+                    "jangregor/phpstan-prophecy": "^0.2.0",
+                    "mockery/mockery": "^1.2",
+                    "phpstan/phpstan": "^0.10.3",
+                    "phpstan/phpstan-mockery": "^0.10.2",
+                    "phpunit/phpunit": "^7.3",
+                    "squizlabs/php_codesniffer": "^3.3"
+                },
+                "time": "2018-12-31T09:36:17+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Ramsey\\Collection\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Ramsey",
+                        "email": "ben@benramsey.com",
+                        "homepage": "https://benramsey.com"
+                    }
+                ],
+                "description": "A PHP 7.2+ library for representing and manipulating collections.",
+                "homepage": "https://github.com/ramsey/collection",
+                "keywords": [
+                    "array",
+                    "collection",
+                    "hash",
+                    "map"
+                ],
+                "uid": 226
+            },
+            {
+                "name": "ramsey/collection",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ramsey/collection.git",
+                    "reference": "4d85fbcd9d2fb1cfd6f81b2f00e687b1c6056b3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ramsey/collection/ramsey-collection-4d85fbcd9d2fb1cfd6f81b2f00e687b1c6056b3a-zip-798030.zip",
+                    "reference": "4d85fbcd9d2fb1cfd6f81b2f00e687b1c6056b3a",
+                    "shasum": "376ddf256704521f46faebfc1622c2dba2c35d6f"
+                },
+                "require": {
+                    "php": "^7.3 || ^8",
+                    "symfony/polyfill-php81": "^1.23"
+                },
+                "require-dev": {
+                    "captainhook/captainhook": "^5.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                    "ergebnis/composer-normalize": "^2.6",
+                    "fakerphp/faker": "^1.5",
+                    "hamcrest/hamcrest-php": "^2",
+                    "jangregor/phpstan-prophecy": "^0.8",
+                    "mockery/mockery": "^1.3",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/extension-installer": "^1",
+                    "phpstan/phpstan": "^0.12.32",
+                    "phpstan/phpstan-mockery": "^0.12.5",
+                    "phpstan/phpstan-phpunit": "^0.12.11",
+                    "phpunit/phpunit": "^8.5 || ^9",
+                    "psy/psysh": "^0.10.4",
+                    "slevomat/coding-standard": "^6.3",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "vimeo/psalm": "^4.4"
+                },
+                "time": "2021-08-05T14:54:37+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Ramsey\\Collection\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Ramsey",
+                        "email": "ben@benramsey.com",
+                        "homepage": "https://benramsey.com"
+                    }
+                ],
+                "description": "A PHP 7.2+ library for representing and manipulating collections.",
+                "keywords": [
+                    "array",
+                    "collection",
+                    "hash",
+                    "map",
+                    "queue",
+                    "set"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/ramsey",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/ramsey/collection",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 227
+            },
+            {
+                "name": "ramsey/collection",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ramsey/collection.git",
+                    "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ramsey/collection/ramsey-collection-ad7475d1c9e70b190ecffc58f2d989416af339b4-zip-0335d8.zip",
+                    "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4",
+                    "shasum": "54b4fba8ad6caebf8aa55d912baa0b3bc54f14d5"
+                },
+                "require": {
+                    "php": "^7.4 || ^8.0",
+                    "symfony/polyfill-php81": "^1.23"
+                },
+                "require-dev": {
+                    "captainhook/plugin-composer": "^5.3",
+                    "ergebnis/composer-normalize": "^2.28.3",
+                    "fakerphp/faker": "^1.21",
+                    "hamcrest/hamcrest-php": "^2.0",
+                    "jangregor/phpstan-prophecy": "^1.0",
+                    "mockery/mockery": "^1.5",
+                    "php-parallel-lint/php-console-highlighter": "^1.0",
+                    "php-parallel-lint/php-parallel-lint": "^1.3",
+                    "phpcsstandards/phpcsutils": "^1.0.0-rc1",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/extension-installer": "^1.2",
+                    "phpstan/phpstan": "^1.9",
+                    "phpstan/phpstan-mockery": "^1.1",
+                    "phpstan/phpstan-phpunit": "^1.3",
+                    "phpunit/phpunit": "^9.5",
+                    "psalm/plugin-mockery": "^1.1",
+                    "psalm/plugin-phpunit": "^0.18.4",
+                    "ramsey/coding-standard": "^2.0.3",
+                    "ramsey/conventional-commits": "^1.3",
+                    "vimeo/psalm": "^5.4"
+                },
+                "time": "2022-12-27T19:12:24+00:00",
+                "type": "library",
+                "extra": {
+                    "captainhook": {
+                        "force-install": true
+                    },
+                    "ramsey/conventional-commits": {
+                        "configFile": "conventional-commits.json"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Ramsey\\Collection\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Ramsey",
+                        "email": "ben@benramsey.com",
+                        "homepage": "https://benramsey.com"
+                    }
+                ],
+                "description": "A PHP library for representing and manipulating collections.",
+                "keywords": [
+                    "array",
+                    "collection",
+                    "hash",
+                    "map",
+                    "queue",
+                    "set"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/ramsey",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/ramsey/collection",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 228
+            },
+            {
+                "name": "ramsey/collection",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ramsey/collection.git",
+                    "reference": "a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ramsey/collection/ramsey-collection-a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5-zip-00182d.zip",
+                    "reference": "a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5",
+                    "shasum": "f4a55414fe8dfe7e62153339a4d644da4abc29d3"
+                },
+                "require": {
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "captainhook/plugin-composer": "^5.3",
+                    "ergebnis/composer-normalize": "^2.28.3",
+                    "fakerphp/faker": "^1.21",
+                    "hamcrest/hamcrest-php": "^2.0",
+                    "jangregor/phpstan-prophecy": "^1.0",
+                    "mockery/mockery": "^1.5",
+                    "php-parallel-lint/php-console-highlighter": "^1.0",
+                    "php-parallel-lint/php-parallel-lint": "^1.3",
+                    "phpcsstandards/phpcsutils": "^1.0.0-rc1",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpstan/extension-installer": "^1.2",
+                    "phpstan/phpstan": "^1.9",
+                    "phpstan/phpstan-mockery": "^1.1",
+                    "phpstan/phpstan-phpunit": "^1.3",
+                    "phpunit/phpunit": "^9.5",
+                    "psalm/plugin-mockery": "^1.1",
+                    "psalm/plugin-phpunit": "^0.18.4",
+                    "ramsey/coding-standard": "^2.0.3",
+                    "ramsey/conventional-commits": "^1.3",
+                    "vimeo/psalm": "^5.4"
+                },
+                "time": "2022-12-31T21:50:55+00:00",
+                "type": "library",
+                "extra": {
+                    "captainhook": {
+                        "force-install": true
+                    },
+                    "ramsey/conventional-commits": {
+                        "configFile": "conventional-commits.json"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Ramsey\\Collection\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Ramsey",
+                        "email": "ben@benramsey.com",
+                        "homepage": "https://benramsey.com"
+                    }
+                ],
+                "description": "A PHP library for representing and manipulating collections.",
+                "keywords": [
+                    "array",
+                    "collection",
+                    "hash",
+                    "map",
+                    "queue",
+                    "set"
+                ],
+                "funding": [
+                    {
+                        "url": "https://github.com/ramsey",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/ramsey/collection",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 229
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "doctrine/deprecations": [
+            {
+                "name": "doctrine/deprecations",
+                "version": "1.1.x-dev",
+                "version_normalized": "1.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/deprecations.git",
+                    "reference": "287ffdf65b884d55ee38d52eca6a07863879fa36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/doctrine/deprecations/doctrine-deprecations-287ffdf65b884d55ee38d52eca6a07863879fa36-zip-48f258.zip",
+                    "reference": "287ffdf65b884d55ee38d52eca6a07863879fa36",
+                    "shasum": "f1e1cc1409c708ce21f48de67ee8a9c3ebcc26c9"
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^9 || ^12",
+                    "phpstan/phpstan": "1.4.10 || 2.0.3",
+                    "phpstan/phpstan-phpunit": "^1.0 || ^2",
+                    "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5",
+                    "psr/log": "^1 || ^2 || ^3"
+                },
+                "suggest": {
+                    "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+                },
+                "time": "2025-02-03T12:25:28+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Deprecations\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+                "homepage": "https://www.doctrine-project.org/",
+                "uid": 15
+            }
+        ]
+    }
+}

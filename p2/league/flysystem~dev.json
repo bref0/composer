@@ -1,0 +1,173 @@
+{
+    "packages": {
+        "league/flysystem": [
+            {
+                "name": "league/flysystem",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thephpleague/flysystem.git",
+                    "reference": "8aaffb653c5777781b0f7f69a5d937baf7ab6cdb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/league/flysystem/league-flysystem-8aaffb653c5777781b0f7f69a5d937baf7ab6cdb-zip-b19230.zip",
+                    "reference": "8aaffb653c5777781b0f7f69a5d937baf7ab6cdb",
+                    "shasum": "71c6afdacae1130a5f410af26d7086192f3b0ce5"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "league/mime-type-detection": "^1.0.0",
+                    "php": "^7.2 || ^8.0"
+                },
+                "conflict": {
+                    "guzzlehttp/ringphp": "<1.1.1"
+                },
+                "require-dev": {
+                    "async-aws/s3": "^1.5",
+                    "async-aws/simple-s3": "^1.0",
+                    "aws/aws-sdk-php": "^3.132.4",
+                    "composer/semver": "^3.0",
+                    "ext-fileinfo": "*",
+                    "ext-ftp": "*",
+                    "friendsofphp/php-cs-fixer": "^3.2",
+                    "google/cloud-storage": "^1.23",
+                    "phpseclib/phpseclib": "^2.0",
+                    "phpstan/phpstan": "^0.12.26",
+                    "phpunit/phpunit": "^8.5 || ^9.4",
+                    "sabre/dav": "^4.1"
+                },
+                "time": "2022-09-17T21:02:32+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "League\\Flysystem\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Frank de Jonge",
+                        "email": "info@frankdejonge.nl"
+                    }
+                ],
+                "description": "File storage abstraction for PHP",
+                "keywords": [
+                    "WebDAV",
+                    "aws",
+                    "cloud",
+                    "file",
+                    "files",
+                    "filesystem",
+                    "filesystems",
+                    "ftp",
+                    "s3",
+                    "sftp",
+                    "storage"
+                ],
+                "funding": [
+                    {
+                        "url": "https://ecologi.com/frankdejonge",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/frankdejonge",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 173
+            },
+            {
+                "name": "league/flysystem",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thephpleague/flysystem.git",
+                    "reference": "e96dfacd788ed9595245b84e99ebe0df3d67bfea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/league/flysystem/league-flysystem-e96dfacd788ed9595245b84e99ebe0df3d67bfea-zip-aab01c.zip",
+                    "reference": "e96dfacd788ed9595245b84e99ebe0df3d67bfea",
+                    "shasum": "a2a322303d567506df0aeb5c372ff0a8ccb6b775"
+                },
+                "require": {
+                    "league/flysystem-local": "^3.0.0",
+                    "league/mime-type-detection": "^1.0.0",
+                    "php": "^8.0.2"
+                },
+                "conflict": {
+                    "async-aws/core": "<1.19.0",
+                    "async-aws/s3": "<1.14.0",
+                    "aws/aws-sdk-php": "3.209.31 || 3.210.0",
+                    "guzzlehttp/guzzle": "<7.0",
+                    "guzzlehttp/ringphp": "<1.1.1",
+                    "phpseclib/phpseclib": "3.0.15",
+                    "symfony/http-client": "<5.2"
+                },
+                "require-dev": {
+                    "async-aws/s3": "^1.5 || ^2.0",
+                    "async-aws/simple-s3": "^1.1 || ^2.0",
+                    "aws/aws-sdk-php": "^3.295.10",
+                    "composer/semver": "^3.0",
+                    "ext-fileinfo": "*",
+                    "ext-ftp": "*",
+                    "ext-mongodb": "^1.3|^2",
+                    "ext-zip": "*",
+                    "friendsofphp/php-cs-fixer": "^3.5",
+                    "google/cloud-storage": "^1.23",
+                    "guzzlehttp/psr7": "^2.6",
+                    "microsoft/azure-storage-blob": "^1.1",
+                    "mongodb/mongodb": "^1.2|^2",
+                    "phpseclib/phpseclib": "^3.0.36",
+                    "phpstan/phpstan": "^1.10",
+                    "phpunit/phpunit": "^9.5.11|^10.0",
+                    "sabre/dav": "^4.6.0"
+                },
+                "time": "2025-01-27T11:50:12+00:00",
+                "type": "library",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "League\\Flysystem\\": "src"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Frank de Jonge",
+                        "email": "info@frankdejonge.nl"
+                    }
+                ],
+                "description": "File storage abstraction for PHP",
+                "keywords": [
+                    "WebDAV",
+                    "aws",
+                    "cloud",
+                    "file",
+                    "files",
+                    "filesystem",
+                    "filesystems",
+                    "ftp",
+                    "s3",
+                    "sftp",
+                    "storage"
+                ],
+                "uid": 178
+            }
+        ]
+    }
+}

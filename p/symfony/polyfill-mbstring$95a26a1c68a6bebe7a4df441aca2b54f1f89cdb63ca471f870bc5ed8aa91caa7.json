@@ -1,0 +1,513 @@
+{
+    "packages": {
+        "symfony/polyfill-mbstring": {
+            "v1.0.0": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "0b6a8940385311a24e060ec1fe35680e17c74497"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-0b6a8940385311a24e060ec1fe35680e17c74497-zip-af83ff.zip",
+                    "reference": "0b6a8940385311a24e060ec1fe35680e17c74497",
+                    "shasum": "50a792cd51961d05bc29ce99d8af2942a9ae3407"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "time": "2015-11-04T20:28:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 339
+            },
+            "v1.1.0": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "1289d16209491b584839022f29257ad859b8532d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-1289d16209491b584839022f29257ad859b8532d-zip-ca46a0.zip",
+                    "reference": "1289d16209491b584839022f29257ad859b8532d",
+                    "shasum": "81dcbb1331586aa46e31eef33d1b0c322b9cecad"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2016-01-20T09:13:37+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.1-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 340
+            },
+            "v1.23.1": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.23.1",
+                "version_normalized": "1.23.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-9174a3d80210dca8daa7f31fec659150bbeabfc6-zip-5556a9.zip",
+                    "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6",
+                    "shasum": "7c7fbd1382b396940c135d5bf35acc90575fb33e"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2021-05-27T12:26:48+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 341
+            },
+            "v1.24.0": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.24.0",
+                "version_normalized": "1.24.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-0abb51d2f102e00a4eefcf46ba7fec406d245825-zip-eaec2d.zip",
+                    "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
+                    "shasum": "3d6f8cd5a2c16002604373517cb8552fe696bd8b"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "provide": {
+                    "ext-mbstring": "*"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2021-11-30T18:21:41+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    },
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 342
+            },
+            "v1.3.0": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-e79d363049d1c2128f133a2667e4f4190904f7f4-zip-34592d.zip",
+                    "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                    "shasum": "45ed3b89eb1b3c49f04a97db44e1f807c3efa0ac"
+                },
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2016-11-14T01:06:16+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.3-dev"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "uid": 343
+            },
+            "v1.31.0": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "v1.31.0",
+                "version_normalized": "1.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-85181ba99b2345b0ef10ce42ecac37612d9fd341-zip-529965.zip",
+                    "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                    "shasum": "8830436a80c9ff6e30c397f31e80c9722560fd28"
+                },
+                "require": {
+                    "php": ">=7.2"
+                },
+                "provide": {
+                    "ext-mbstring": "*"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2024-09-09T11:45:10+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 344
+            },
+            "1.x-dev": {
+                "name": "symfony/polyfill-mbstring",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-mbstring.git",
+                    "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/symfony/polyfill-mbstring/symfony-polyfill-mbstring-6d857f4d76bd4b343eac26d6b539585d2bc56493-zip-e661c6.zip",
+                    "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+                    "shasum": "8837d04485cd6bfd8683a8133c186f2fad10d846"
+                },
+                "require": {
+                    "ext-iconv": "*",
+                    "php": ">=7.2"
+                },
+                "provide": {
+                    "ext-mbstring": "*"
+                },
+                "suggest": {
+                    "ext-mbstring": "For best performance"
+                },
+                "time": "2024-12-23T08:48:59+00:00",
+                "type": "library",
+                "extra": {
+                    "thanks": {
+                        "url": "https://github.com/symfony/polyfill",
+                        "name": "symfony/polyfill"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "files": [
+                        "bootstrap.php"
+                    ],
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Mbstring\\": ""
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for the Mbstring extension",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "mbstring",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ],
+                "funding": [
+                    {
+                        "url": "https://symfony.com/sponsor",
+                        "type": "custom"
+                    },
+                    {
+                        "url": "https://github.com/fabpot",
+                        "type": "github"
+                    },
+                    {
+                        "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                        "type": "tidelift"
+                    }
+                ],
+                "uid": 345
+            }
+        }
+    }
+}

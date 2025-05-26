@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  部署到生产环境:
+  deploy:
     name: "🚀 部署流程"
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -23,7 +23,7 @@ jobs:
         run: |
           composer global require composer/satis:2.x-dev
           echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
-          
+
       - name: "构建仓库"
         run: |
           ~/.composer/vendor/bin/satis build satis.json public

@@ -1,37 +1,22 @@
-# Composer Private Repository
+# Satis 私有 Composer 仓库部署指南
 
-[![Deploy to Cloudflare](https://github.com/bref0/actions/workflows/deploy.yml/badge.svg)](https://github.com/bref0/composer-repo/actions)
+## 项目概述
+本项目使用 [Satis](https://github.com/composer/satis) 搭建私有 Composer 包仓库，支持：
+- ✅ 托管私有 PHP 包
+- ⚡ 镜像加速公共包
+- 📦 离线包缓存
 
-## 📦 功能特性
-- 基于 [Satis](https://github.com/composer/satis) 构建
-- 通过 Cloudflare Pages 全球加速
-- 支持私有包离线缓存
+## 快速开始
 
-## 🚀 快速开始
-### 服务端配置
-```bash
-# 安装 Satis
-composer global require composer/satis
-```
+### 客户端配置
+在项目 `composer.json` 中添加：
 
-### 客户端使用
-在 `composer.json` 中添加：
 ```json
 {
     "repositories": [
         {
             "type": "composer",
-            "url": "https://your-repo.pages.dev"
+            "url": "https://yourname.github.io/composer-repo"
         }
     ]
 }
-```
-
-## 🔒 访问控制
-通过环境变量配置认证：
-```yaml
-# deploy.yml 片段
-env:
-  AUTH_USER: ${{ secrets.REPO_USER }}
-  AUTH_PASS: ${{ secrets.REPO_PASS }}
-```

@@ -12,12 +12,6 @@
     "require": {
          "laravel/framework": "9.*"
     },
-    
-    "archive": {
-        "directory": "dist",
-        "format": "zip",
-        "prefix-url": "https://composer.fedax.cn/dist"
-    },
 
     "require-all": false,
     "providers": true,

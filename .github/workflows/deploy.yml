@@ -5,12 +5,17 @@ on:
     branches: [ main ]
 
 jobs:
-  php:
-    name: PHP
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: shivammathur/setup-php@v2
+      - name: Setup PHP 8.2
+        uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-      - run: find . -type f -name '*.php' -exec php -l {} \;
+          tools: composer
+
+      - name: Install Stable Satis
+        run: |
+          composer global require composer/satis:2.0.0
+          echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH

@@ -1,9 +1,7 @@
 {
-    // 必须字段
     "name": "Fedax自建composer仓",
     "homepage": "https://composer.fedax.cn",
     
-    // 必须：包来源配置
     "repositories": [
         {
             "type": "composer",
@@ -11,19 +9,17 @@
         }
     ],
     
-    // 必须：指定要包含的包
     "require": {
-        "gym/framework": "*"
+        "hyperf/framework": "~3.1.0"
     },
     
-    // 推荐：离线包缓存（可选但建议）
     "archive": {
         "directory": "dist",
         "format": "zip",
         "prefix-url": "https://composer.fedax.cn/dist"
     },
 
-    "require-all": false,           // 避免索引所有版本（节省资源）
-    "providers": true,              // 加速大型仓库访问
-    "output-dir": "./public"       // 明确输出目录
+    "require-all": false,
+    "providers": true,
+    "output-dir": "./public"   
 }

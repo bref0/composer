@@ -1,24 +1,35 @@
-name: Deploy Public Satis
+name: "构建PHP私有仓库"
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  deploy:
+  部署到生产环境:
+    name: "🚀 部署流程"
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Checkout code
+      - name: "拉取代码"
         uses: actions/checkout@v4
 
-      - name: Setup PHP 8
+      - name: "配置PHP环境"
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
           tools: composer
 
-      - name: Install Stable Satis
+      - name: "安装Satis工具"
         run: |
           composer global require composer/satis:2.x-dev
           echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
+          
+      - name: "构建仓库"
+        run: |
+          ~/.composer/vendor/bin/satis build satis.json public
+
+      - name: "发布到Pages"
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

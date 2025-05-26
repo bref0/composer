@@ -4,13 +4,13 @@
     
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/symfony/symfony" 
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     ],
     
     "require": {
-         "symfony/symfony": "*"
+         "laravel/framework": "9.*"
     },
     
     "archive": {

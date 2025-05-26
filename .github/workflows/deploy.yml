@@ -20,6 +20,6 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -t rsa,ed25519 codeup.aliyun.com > ~/.ssh/known_hosts
           ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
-          
+
       - name: "测试连接"
-          run: ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
+        run: ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes

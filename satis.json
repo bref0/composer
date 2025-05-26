@@ -8,11 +8,7 @@
         {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer/"
-        },
-        {
-            "type": "git",
-            "url": "git@codeup.aliyun.com:fedax/composer/framework.git"
-        },
+        }
     ],
     
     // 必须：指定要包含的包

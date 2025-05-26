@@ -17,7 +17,8 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
-          tools: composer
+          tools: composer:v2
+          composer-version: 'latest'
 
       - name: "安装Satis工具"
         run: |

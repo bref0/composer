@@ -21,8 +21,10 @@ jobs:
           php-version: '8.2'
           tools: composer
 
-      - name: Install Satis
-        run: composer global require composer/satis
+      - name: Install Satis 2.x
+        run: |
+          composer global require composer/satis:^2.0
+          echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
 
       - name: Build Public Repo
         run: |

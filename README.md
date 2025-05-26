@@ -1,6 +1,6 @@
 # Composer Private Repository
 
-[![Deploy to Cloudflare](https://github.com/yourname/bref0/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourname/composer-repo/actions)
+[![Deploy to Cloudflare](https://github.com/bref0/actions/workflows/deploy.yml/badge.svg)](https://github.com/bref0/composer-repo/actions)
 
 ## 📦 功能特性
 - 基于 [Satis](https://github.com/composer/satis) 构建

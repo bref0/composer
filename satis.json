@@ -10,11 +10,11 @@
     ],
     
     "require": {
-         "laravel/framework": "9.*"
+         "hyperf/framework": "~3.1.0"
     },
-    "require-dependencies": true,
-    "require-dev-dependencies": false,
     "require-all": false,
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
     "providers": true,
     "output-dir": "./public",
     "config": {

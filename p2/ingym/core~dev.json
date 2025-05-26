@@ -31,7 +31,6 @@
                         "config": "Ingym\\Core\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Ingym\\Core\\": "src/"
@@ -100,7 +99,6 @@
                         "config": "Ingym\\Core\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Ingym\\Core\\": "src/"
@@ -168,7 +166,6 @@
                         "config": "Ingym\\Core\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Ingym\\Core\\": "src/"
@@ -236,7 +233,6 @@
                         "config": "Ingym\\Core\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Ingym\\Core\\": "src/"

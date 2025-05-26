@@ -3,7 +3,7 @@
     "providers-url": "/composer/p/%package%$%hash%.json",
     "providers": {
         "ingym/core": {
-            "sha256": "8dad4fef99051197a6616f391ef64e35737877d0f02a888eeb18f72859911bc2"
+            "sha256": "11a23d79ee00132ef76c09b98d1f198192326772240865acb37fa306cca0efb5"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",

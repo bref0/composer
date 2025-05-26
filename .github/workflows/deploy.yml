@@ -22,4 +22,9 @@ jobs:
           ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
 
       - name: "测试连接"
-        run: ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
+        run: |
+          ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes
+
+          git clone git@codeup.aliyun.com:yinlisports/composer/core.git
+          cd core
+          git status

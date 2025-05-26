@@ -5,14 +5,15 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://mirrors.cloud.tencent.com/composer/"
+            "url": "https://packagist.org"
         }
     ],
     
     "require": {
          "laravel/framework": "9.*"
     },
-
+    "require-dependencies": true,
+    "require-dev-dependencies": false,
     "require-all": false,
     "providers": true,
     "output-dir": "./public",
@@ -20,5 +21,9 @@
         "allow-plugins": {
             "composer/installers": true
         }
+    },
+    "archive": {
+        "directory": "dist",
+        "format": "zip"
     }
 }

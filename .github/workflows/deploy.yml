@@ -23,52 +23,5 @@ jobs:
           # 配置Git使用SSH
           git config --global url."git@codeup.aliyun.com:".insteadOf "https://codeup.aliyun.com/"
 
-      # 缓存Composer全局依赖（包括satis）
-      - name: "缓存Composer全局依赖"
-        uses: actions/cache@v3
-        id: cache-composer-global
-        with:
-          path: |
-            ~/.composer/cache
-            ~/.composer/vendor
-          key: ${{ runner.os }}-composer-global-${{ hashFiles('**/satis.json') }}
-          restore-keys: |
-            ${{ runner.os }}-composer-global-
-
-      - name: "配置PHP环境"
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.0'
-          tools: composer:v2
-
-      - name: "验证环境"
-        run: |
-          php -v
-          composer --version
-
-      # 仅当缓存未命中时安装satis
-      - name: "安装Satis工具"
-        if: steps.cache-composer-global.outputs.cache-hit != 'true'
-        run: |
-          composer global require composer/satis:2.x-dev
-          echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
-
-      # 缓存构建结果（避免重复扫描包）
-      - name: "缓存构建结果"
-        uses: actions/cache@v3
-        id: cache-satis-build
-        with:
-          path: ./public
-          key: ${{ runner.os }}-satis-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-satis-
-
-      - name: "构建仓库"
-        run: |
-          ~/.composer/vendor/bin/satis build satis.json public
-
-      - name: "发布到Pages"
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: 测试连接
+        run: ssh -T git@codeup.aliyun.com -o StrictHostKeyChecking=yes

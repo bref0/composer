@@ -1,0 +1,530 @@
+{
+    "packages": {
+        "ingym/core": {
+            "v2.1": {
+                "name": "ingym/core",
+                "version": "v2.1",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "e27109eaae70f0209fd2bc7cc5dc7ead873ce070"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-v2.1-b67309.zip",
+                    "reference": "e27109eaae70f0209fd2bc7cc5dc7ead873ce070",
+                    "shasum": "d9a4f8068aa59d2285267df4f4c27f9ca2dd1f7e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "2.1.*",
+                    "hyperf/logger": "2.1.*",
+                    "hyperf/validation": "2.1.*",
+                    "php": ">=7.4"
+                },
+                "time": "2022-02-10T05:25:46+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 1
+            },
+            "v2.2.3": {
+                "name": "ingym/core",
+                "version": "v2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "7c7d0bcda8ca8f9e96c083fd4844e28ca9915c4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-v2.2.3-13b032.zip",
+                    "reference": "7c7d0bcda8ca8f9e96c083fd4844e28ca9915c4a",
+                    "shasum": "2f589a324630cf9d913ff7f5f1dcd6af8c65ac45"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4"
+                },
+                "time": "2022-02-14T09:12:36+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 2
+            },
+            "v2.2.4.3": {
+                "name": "ingym/core",
+                "version": "v2.2.4.3",
+                "version_normalized": "2.2.4.3",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "e2794d7f2d01cb77d11cf63f16c941be82c6c896"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-v2.2.4.3-550051.zip",
+                    "reference": "e2794d7f2d01cb77d11cf63f16c941be82c6c896",
+                    "shasum": "a914544bd7ec6b427b78b487bb787e32c55274fd"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4",
+                    "phper666/jwt-auth": "^4.0"
+                },
+                "time": "2022-11-16T07:18:59+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 3
+            },
+            "2.2.4.x-dev": {
+                "name": "ingym/core",
+                "version": "2.2.4.x-dev",
+                "version_normalized": "2.2.4.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "e7a2266f65572105c9f94bfb194b979526c780fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-2.2.4.x-dev-29da96.zip",
+                    "reference": "e7a2266f65572105c9f94bfb194b979526c780fa",
+                    "shasum": "9b48707dc0cc8066fcbb01b0cf74e0cbc9675dac"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4",
+                    "phper666/jwt-auth": "^4.0"
+                },
+                "time": "2022-11-16T09:19:00+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 4
+            },
+            "v2.2.5": {
+                "name": "ingym/core",
+                "version": "v2.2.5",
+                "version_normalized": "2.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "f7a1f4290a662522fde4eb624f6096054549ed7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-v2.2.5-794046.zip",
+                    "reference": "f7a1f4290a662522fde4eb624f6096054549ed7a",
+                    "shasum": "fee27a34ef54f046072759057ea47d1cc85efc5b"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4",
+                    "phper666/jwt-auth": "^4.0"
+                },
+                "time": "2023-05-16T02:45:03+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 5
+            },
+            "2.2.5.x-dev": {
+                "name": "ingym/core",
+                "version": "2.2.5.x-dev",
+                "version_normalized": "2.2.5.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "f7a1f4290a662522fde4eb624f6096054549ed7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-2.2.5.x-dev-794046.zip",
+                    "reference": "f7a1f4290a662522fde4eb624f6096054549ed7a",
+                    "shasum": "9d12772bd05d5de4cc36c48abd147cc6b088d996"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4",
+                    "phper666/jwt-auth": "^4.0"
+                },
+                "time": "2023-05-16T02:45:03+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 6
+            },
+            "2.2.x-dev": {
+                "name": "ingym/core",
+                "version": "2.2.x-dev",
+                "version_normalized": "2.2.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "7c7d0bcda8ca8f9e96c083fd4844e28ca9915c4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-2.2.x-dev-13b032.zip",
+                    "reference": "7c7d0bcda8ca8f9e96c083fd4844e28ca9915c4a",
+                    "shasum": "e79b402c65da6396ec6d951aa6927ff00d22731e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "^2.2",
+                    "hyperf/logger": "^2.2",
+                    "hyperf/validation": "^2.2",
+                    "php": ">=7.4"
+                },
+                "time": "2022-02-14T09:12:36+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    },
+                    {
+                        "name": "宋建安",
+                        "email": "a@live.com"
+                    },
+                    {
+                        "name": "廖志峰",
+                        "email": "b@live.com"
+                    },
+                    {
+                        "name": "董锦君",
+                        "email": "c@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 7
+            },
+            "dev-master": {
+                "name": "ingym/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:yinlisports/composer/core.git",
+                    "reference": "e31f5390d48cfac0591b529308cedd56f8d19b00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bref0.github.io/composer/dist/ingym/core/ingym-core-dev-master-30aab8.zip",
+                    "reference": "e31f5390d48cfac0591b529308cedd56f8d19b00",
+                    "shasum": "a843f12c8fdcea87bc2c86aec510416da72227c1"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "hyperf/constants": "2.1.*",
+                    "hyperf/logger": "2.1.*",
+                    "hyperf/validation": "2.1.*",
+                    "php": ">=7.4"
+                },
+                "time": "2022-02-10T05:34:27+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Ingym\\Core\\ConfigProvider"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Ingym\\Core\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "孙文康",
+                        "email": "sunwenkang@live.com"
+                    }
+                ],
+                "description": "银吉姆企业内部 核心库",
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 8
+            }
+        }
+    }
+}

@@ -2,12 +2,12 @@
     "packages": [],
     "providers-url": "/composer/p/%package%$%hash%.json",
     "providers": {
-        "hyperf/framework": {
-            "sha256": "ef118143f3c1acdc841f36773b4c754500b331d674837ea16db788fd82e788dd"
+        "ingym/core": {
+            "sha256": "8dad4fef99051197a6616f391ef64e35737877d0f02a888eeb18f72859911bc2"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
-        "hyperf/framework"
+        "ingym/core"
     ]
 }

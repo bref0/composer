@@ -9,13 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Setup PHP 8.2
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP 8
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.0'
           tools: composer
 
       - name: Install Stable Satis
         run: |
-          composer global require composer/satis:2.0.0
+          composer global require composer/satis:2.x-dev
           echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH

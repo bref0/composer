@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Satis 2.x
         run: |
-          composer global require composer/satis:^2.0
+          composer global require composer/satis:2.0.0 --prefer-stable
           echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
 
       - name: Build Public Repo

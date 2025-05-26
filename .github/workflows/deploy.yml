@@ -18,6 +18,11 @@ jobs:
         with:
           php-version: '8.0'
           tools: composer:v2
+          
+      - name: "验证环境"
+        run: |
+          php -v
+          composer --version
 
       - name: "安装Satis工具"
         run: |

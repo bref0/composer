@@ -1,16 +1,16 @@
 {
-    "name": "Fedax自建composer仓",
-    "homepage": "https://composer.fedax.cn",
+    "name": "bref0/composer",
+    "homepage": "https://bref0.github.io/composer",
     
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/"
+            "type": "vcs",
+            "url": "https://github.com/symfony/symfony" 
         }
     ],
     
     "require": {
-        "hyperf/framework": "~3.1.0"
+         "symfony/symfony": "*"
     },
     
     "archive": {

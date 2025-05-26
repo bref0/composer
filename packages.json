@@ -1,0 +1,7 @@
+{
+    "packages": [],
+    "providers-url": "/composer/p/%package%$%hash%.json",
+    "providers": [],
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": []
+}

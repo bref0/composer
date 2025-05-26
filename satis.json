@@ -21,5 +21,10 @@
 
     "require-all": false,
     "providers": true,
-    "output-dir": "./public"   
+    "output-dir": "./public",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }

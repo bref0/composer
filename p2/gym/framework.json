@@ -11,10 +11,10 @@
                     "reference": "e43c4d18b02b395de9ed725e299423e6d6d3d917"
                 },
                 "dist": {
-                    "type": "zip",
-                    "url": "https://bref0.github.io/composer//dist/gym/framework/gym-framework-v3.1-c90c79.zip",
+                    "type": "tar",
+                    "url": "https://bref0.github.io/composer/dist/gym/framework/gym-framework-v3.1-c90c79.tar",
                     "reference": "e43c4d18b02b395de9ed725e299423e6d6d3d917",
-                    "shasum": "1f8513810f1d15c29cf7b4a343bef2e51ee87797"
+                    "shasum": "8766b48c29710a962bc080dbaec68088b654cdab"
                 },
                 "require": {
                     "hyperf/cache": "~3.1.0",

@@ -1,31 +1,32 @@
 {
     "name": "bref0/composer",
     "homepage": "https://bref0.github.io/composer/",
-    
     "repositories": [
-         {
+        {
             "type": "git",
             "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git"
-         }
+        }
     ],
-    
-    "require": {
-         "gym/framework": "*"
+    "archive": {
+        "directory": "dist",
+        "format": "zip",
+        "skip-dev": true
     },
-    "require-all": false,
-    "require-dependencies": false,
-    "require-dev-dependencies": false,
-    "providers": true,
-    "output-dir": "./public",
     "config": {
         "allow-plugins": {
             "composer/installers": true
         },
         "preferred-install": "dist"
     },
-    "archive": {
-        "directory": "dist",
-        "format": "zip",
-        "skip-dev": true
-    }
+    "metadata": {
+        "minimal-tags": false
+    },
+    "output-dir": "./public",
+    "providers": true,
+    "require": {
+        "gym/framework": "*"
+    },
+    "require-all": false,
+    "require-dependencies": false,
+    "require-dev-dependencies": false
 }

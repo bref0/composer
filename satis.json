@@ -5,12 +5,12 @@
     "repositories": [
          {
             "type": "git",
-            "url": "git@codeup.aliyun.com:yinlisports/composer/core.git"
+            "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git"
          }
     ],
     
     "require": {
-         "ingym/core": "*"
+         "gym/framework": "*"
     },
     "require-all": false,
     "require-dependencies": false,

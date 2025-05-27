@@ -2,12 +2,12 @@
     "packages": [],
     "providers-url": "/composer/p/%package%$%hash%.json",
     "providers": {
-        "ingym/core": {
-            "sha256": "11a23d79ee00132ef76c09b98d1f198192326772240865acb37fa306cca0efb5"
+        "gym/framework": {
+            "sha256": "853d04c97a8189285a730e9fc7878069c8f22fddfa90e60e05d6e36d2cb5b429"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
-        "ingym/core"
+        "gym/framework"
     ]
 }

@@ -3,15 +3,35 @@ name: "构建PHP私有仓库"
 on:
   push:
     branches: [ main ]
+  # 新增手动触发选项
+  workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: '是否强制重建（忽略缓存）'
+        required: false
+        default: 'false'
+        type: boolean
+      target_branch:
+        description: '目标分支（默认为当前分支）'
+        required: false
+        type: string
 
 jobs:
   deploy:
     name: "🚀 部署流程"
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    
+    # 根据手动输入参数设置环境变量
+    env:
+      FORCE_REBUILD: ${{ inputs.force_rebuild || 'false' }}
+      TARGET_BRANCH: ${{ inputs.target_branch || github.ref_name }}
+
     steps:
       - name: "拉取代码"
         uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
 
       - name: "配置SSH"
         run: |
@@ -25,6 +45,7 @@ jobs:
         
       # 缓存Composer全局依赖（包括satis）
       - name: "缓存Composer全局依赖"
+        if: ${{ env.FORCE_REBUILD != 'true' }}  # 强制重建时跳过缓存
         uses: actions/cache@v3
         id: cache-composer-global
         with:
@@ -46,15 +67,16 @@ jobs:
           php -v
           composer --version
 
-      # 仅当缓存未命中时安装satis
+      # 仅当缓存未命中或强制重建时安装satis
       - name: "安装Satis工具"
-        if: steps.cache-composer-global.outputs.cache-hit != 'true'
+        if: ${{ steps.cache-composer-global.outputs.cache-hit != 'true' || env.FORCE_REBUILD == 'true' }}
         run: |
           composer global require composer/satis:2.x-dev
           echo "$HOME/.composer/vendor/bin" >> $GITHUB_PATH
 
-      # 缓存构建结果（避免重复扫描包）
+      # 缓存构建结果（强制重建时跳过）
       - name: "缓存构建结果"
+        if: ${{ env.FORCE_REBUILD != 'true' }}
         uses: actions/cache@v3
         id: cache-satis-build
         with:
@@ -72,4 +94,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-

@@ -1,7 +1,7 @@
 {
     "packages": {
-        "gym/framework": [
-            {
+        "gym/framework": {
+            "v3.1": {
                 "name": "gym/framework",
                 "version": "v3.1",
                 "version_normalized": "3.1.0.0",
@@ -84,7 +84,84 @@
                     "php"
                 ],
                 "uid": 1
+            },
+            "dev-main": {
+                "name": "gym/framework",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git",
+                    "reference": "e43c4d18b02b395de9ed725e299423e6d6d3d917"
+                },
+                "require": {
+                    "hyperf/cache": "~3.1.0",
+                    "hyperf/command": "~3.1.0",
+                    "hyperf/config": "~3.1.0",
+                    "hyperf/constants": "^3.1",
+                    "hyperf/database": "~3.1.0",
+                    "hyperf/db-connection": "~3.1.0",
+                    "hyperf/engine": "^2.10",
+                    "hyperf/framework": "~3.1.0",
+                    "hyperf/guzzle": "~3.1.0",
+                    "hyperf/http-server": "~3.1.0",
+                    "hyperf/logger": "~3.1.0",
+                    "hyperf/memory": "~3.1.0",
+                    "hyperf/model-cache": "^3.1",
+                    "hyperf/process": "~3.1.0",
+                    "hyperf/validation": "^3.1",
+                    "php": ">=8.1"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "mockery/mockery": "^1.0",
+                    "phpstan/phpstan": "^1.0",
+                    "phpunit/phpunit": ">=7.0",
+                    "swoole/ide-helper": "^4.5"
+                },
+                "suggest": {
+                    "swow/swow": "Required to create swow components."
+                },
+                "time": "2025-05-27T03:27:52+00:00",
+                "type": "library",
+                "extra": {
+                    "hyperf": {
+                        "config": "Gym\\Framework\\ConfigProvider"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Gym\\Framework\\": "src/"
+                    },
+                    "files": [
+                        "src/Functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "HyperfTest\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit -c phpunit.xml --colors=always"
+                    ],
+                    "analyse": [
+                        "phpstan analyse --memory-limit 1024M -l 0 ./src"
+                    ],
+                    "cs-fix": [
+                        "php-cs-fixer fix $1"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "hyperf",
+                    "php"
+                ],
+                "uid": 2
             }
-        ]
+        }
     }
 }

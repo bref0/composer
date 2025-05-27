@@ -8,13 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git",
-                    "reference": "45bdcc53acf51c963ab5fdb6809cfd1101c88551"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://bref0.github.io/composer/dist/gym/framework/gym-framework-dev-main-dc3b9d.zip",
-                    "reference": "45bdcc53acf51c963ab5fdb6809cfd1101c88551",
-                    "shasum": "cff26d3966c2afd689b54e38ad5323b9bf34b703"
+                    "reference": "e43c4d18b02b395de9ed725e299423e6d6d3d917"
                 },
                 "require": {
                     "hyperf/cache": "~3.1.0",
@@ -44,7 +38,7 @@
                 "suggest": {
                     "swow/swow": "Required to create swow components."
                 },
-                "time": "2025-05-27T02:40:07+00:00",
+                "time": "2025-05-27T03:27:52+00:00",
                 "type": "library",
                 "extra": {
                     "hyperf": {
@@ -82,7 +76,7 @@
                     "hyperf",
                     "php"
                 ],
-                "uid": 1
+                "uid": 2
             }
         ]
     }

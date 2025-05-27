@@ -5,7 +5,11 @@
     "repositories": [
          {
             "type": "git",
-            "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git"
+            "url": "git@codeup.aliyun.com:fedax/sharegym/framework.git",
+            "options": {
+                "symlink": false,
+                "mirror-source": true
+            }
          }
     ],
 
@@ -24,9 +28,7 @@
     },
     "archive": {
         "directory": "dist",
-        "format": "zip"
-    },
-    "metadata": {
-        "minimal-tags": false
+        "format": "tar",
+        "skip-dev": true
     }
 }

@@ -3,7 +3,7 @@
     "providers-url": "/composer/p/%package%$%hash%.json",
     "providers": {
         "gym/framework": {
-            "sha256": "853d04c97a8189285a730e9fc7878069c8f22fddfa90e60e05d6e36d2cb5b429"
+            "sha256": "d13127d6262dc6ae86e1aa598064a2250c6e0f58986ca521646643de3668a12b"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",

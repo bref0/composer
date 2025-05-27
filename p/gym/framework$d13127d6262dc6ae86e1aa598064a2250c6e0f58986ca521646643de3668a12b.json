@@ -51,7 +51,6 @@
                         "config": "Gym\\Framework\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Gym\\Framework\\": "src/"
@@ -135,7 +134,6 @@
                         "config": "Gym\\Framework\\ConfigProvider"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Gym\\Framework\\": "src/"

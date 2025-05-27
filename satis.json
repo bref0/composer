@@ -1,6 +1,6 @@
 {
     "name": "bref0/composer",
-    "homepage": "https://bref0.github.io/composer",
+    "homepage": "https://bref0.github.io/composer/",
     
     "repositories": [
          {
@@ -20,10 +20,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true
-        }
+        },
+        "preferred-install": "dist"
     },
     "archive": {
         "directory": "dist",
-        "format": "zip"
+        "format": "zip",
+        "skip-dev": true
     }
 }
